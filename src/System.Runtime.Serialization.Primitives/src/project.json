@@ -1,13 +1,11 @@
 {
   "frameworks": {
-    "netstandard1.3": {
+    "netstandard1.5": {
       "dependencies": {
-        "System.Runtime": "4.0.20",
-        "System.Resources.ResourceManager": "4.0.0",
-        "System.Threading.Tasks": "4.0.10"
+        "Microsoft.TargetingPack.Private.CoreCLR": "1.0.0-rc3-24113-00"
       },
       "imports": [
-        "dotnet5.4"
+        "dotnet5.6"
       ]
     },
     "netcore50": {
@@ -22,6 +20,11 @@
     "net46": {
       "dependencies": {
         "Microsoft.TargetingPack.NETFramework.v4.6": "1.0.1"
+      }
+    },
+    "net462": {
+      "dependencies": {
+        "Microsoft.TargetingPack.NETFramework.v4.6.2": "1.0.1"
       }
     }
   }
