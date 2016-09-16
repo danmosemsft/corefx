@@ -8,16 +8,22 @@
 
 namespace System.Diagnostics
 {
-    public sealed partial class StackFrame
+    public partial class StackFrame
     {
-        internal StackFrame() { }
         public const int OFFSET_UNKNOWN = -1;
-        public int GetFileColumnNumber() { return default(int); }
-        public int GetFileLineNumber() { return default(int); }
-        public string GetFileName() { return default(string); }
-        public int GetILOffset() { return default(int); }
-        public System.Reflection.MethodBase GetMethod() { return default(System.Reflection.MethodBase); }
-        public override string ToString() { return default(string); }
+        public StackFrame() { }
+        public StackFrame(bool fNeedFileInfo) { }
+        public StackFrame(int skipFrames) { }
+        public StackFrame(int skipFrames, bool fNeedFileInfo) { }
+        public StackFrame(string fileName, int lineNumber) { }
+        public StackFrame(string fileName, int lineNumber, int colNumber) { }
+        public virtual int GetFileColumnNumber() { throw null; }
+        public virtual int GetFileLineNumber() { throw null; }
+        public virtual string GetFileName() { throw null; }
+        public virtual int GetILOffset() { throw null; }
+        public virtual System.Reflection.MethodBase GetMethod() { throw null; }
+        public virtual int GetNativeOffset() { throw null; }
+        public override string ToString() { throw null; }
     }
     public static partial class StackFrameExtensions
     {
@@ -28,10 +34,23 @@ namespace System.Diagnostics
         public static bool HasNativeImage(this System.Diagnostics.StackFrame stackFrame) { return default(bool); }
         public static bool HasSource(this System.Diagnostics.StackFrame stackFrame) { return default(bool); }
     }
-    public sealed partial class StackTrace
+    public partial class StackTrace
     {
-        public StackTrace(System.Exception exception, bool needFileInfo) { }
-        public System.Diagnostics.StackFrame[] GetFrames() { return default(System.Diagnostics.StackFrame[]); }
-        public override string ToString() { return default(string); }
+        public const int METHODS_TO_SKIP = 0;
+        public StackTrace() { }
+        public StackTrace(bool fNeedFileInfo) { }
+        public StackTrace(System.Diagnostics.StackFrame frame) { }
+        public StackTrace(System.Exception e) { }
+        public StackTrace(System.Exception e, bool fNeedFileInfo) { }
+        public StackTrace(System.Exception e, int skipFrames) { }
+        public StackTrace(System.Exception e, int skipFrames, bool fNeedFileInfo) { }
+        public StackTrace(int skipFrames) { }
+        public StackTrace(int skipFrames, bool fNeedFileInfo) { }
+        [System.ObsoleteAttribute("This constructor has been deprecated.  Please use a constructor that does not require a Thread parameter.  http://go.microsoft.com/fwlink/?linkid=14202")]
+        public StackTrace(System.Threading.Thread targetThread, bool needFileInfo) { }
+        public virtual int FrameCount { get { throw null; } }
+        public virtual System.Diagnostics.StackFrame GetFrame(int index) { throw null; }
+        public virtual System.Diagnostics.StackFrame[] GetFrames() { throw null; }
+        public override string ToString() { throw null; }
     }
 }

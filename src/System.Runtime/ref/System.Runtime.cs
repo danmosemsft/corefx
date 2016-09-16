@@ -3188,10 +3188,14 @@ namespace System.Diagnostics
         public ConditionalAttribute(string conditionString) { }
         public string ConditionString { get { return default(string); } }
     }
-    [System.AttributeUsageAttribute((System.AttributeTargets)(3), AllowMultiple = false)]
+    [System.AttributeUsageAttribute((System.AttributeTargets)(3), AllowMultiple=false)]
     public sealed partial class DebuggableAttribute : System.Attribute
     {
+        public DebuggableAttribute(bool isJITTrackingEnabled, bool isJITOptimizerDisabled) { }
         public DebuggableAttribute(System.Diagnostics.DebuggableAttribute.DebuggingModes modes) { }
+        public System.Diagnostics.DebuggableAttribute.DebuggingModes DebuggingFlags { get { throw null; } }
+        public bool IsJITOptimizerDisabled { get { throw null; } }
+        public bool IsJITTrackingEnabled { get { throw null; } }
         [System.FlagsAttribute]
         public enum DebuggingModes
         {

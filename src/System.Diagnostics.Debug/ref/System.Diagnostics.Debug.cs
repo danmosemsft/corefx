@@ -56,12 +56,18 @@ namespace System.Diagnostics
         public static void WriteLineIf(bool condition, string message) { }
         [System.Diagnostics.ConditionalAttribute("DEBUG")]
         public static void WriteLineIf(bool condition, string message, string category) { }
-    }
-    public static partial class Debugger
+    }  
+    public sealed partial class Debugger
     {
-        public static bool IsAttached { get { return default(bool); } }
+        public static readonly string DefaultCategory;
+        [System.ObsoleteAttribute("Do not create instances of the Debugger class.  Call the static methods directly on this type instead", true)]
+        public Debugger() { }
+        public static bool IsAttached { get { throw null; } }
         public static void Break() { }
-        public static bool Launch() { return default(bool); }
+        public static bool IsLogging() { throw null; }
+        public static bool Launch() { throw null; }
+        public static void Log(int level, string category, string message) { }
+        public static void NotifyOfCrossThreadDependency() { }
     }
     [System.AttributeUsageAttribute((System.AttributeTargets)(384), AllowMultiple = false)]
     public sealed partial class DebuggerBrowsableAttribute : System.Attribute
