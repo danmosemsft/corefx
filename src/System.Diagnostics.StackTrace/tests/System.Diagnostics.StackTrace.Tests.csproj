@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)'==''">Windows_Debug</Configuration>
+  </PropertyGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56F67E92-E606-435E-A00F-003CBFB26945}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>System.Diagnostics.StackTrace.Tests</AssemblyName>
+    <RootNamespace>System.Diagnostics.Tests</RootNamespace>
+    <IgnoreArchitectureMismatches>true</IgnoreArchitectureMismatches>
+    <PostFilterNugetReferences>true</PostFilterNugetReferences>
+    <NoWarn>1685</NoWarn>
+    <!-- Don't allow project reference to package dependency conversion -->
+    <KeepAllProjectReferences>true</KeepAllProjectReferences>
+    <NugetTargetMoniker Condition="'$(TargetGroup)' == ''">.NETStandard,Version=v1.3</NugetTargetMoniker>
+  </PropertyGroup>
+  <!-- Default configurations to help VS understand the configurations -->
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>	
+    <ProjectReference Include="..\pkg\System.Diagnostics.StackTrace.pkgproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetGroup)' == 'netstandard1.7'">
+    <Compile Include="System\Diagnostics\StackTests.cs" />
+  </ItemGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.targets))\dir.targets" />
+</Project>
