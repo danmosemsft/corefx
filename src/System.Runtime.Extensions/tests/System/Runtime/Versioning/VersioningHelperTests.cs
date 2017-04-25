@@ -10,6 +10,7 @@ namespace System.Runtime.Versioning.Tests
     public static class VersioningHelperTests
     {
         [Fact]
+        [SkipOnTargetFramework(TargetFrameworkMonikers.NetFramework, "Full framework uses different algorithm; MSDN does not document it")]
         public static void Test1()
         {
             string str1 = VersioningHelper.MakeVersionSafeName("TestFile", ResourceScope.Process, ResourceScope.AppDomain);
