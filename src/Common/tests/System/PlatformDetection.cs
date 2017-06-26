@@ -26,6 +26,7 @@ namespace System
         public static bool IsWindows7 => IsWindows && GetWindowsVersion() == 6 && GetWindowsMinorVersion() == 1;
         public static bool IsWindows8x => IsWindows && GetWindowsVersion() == 6 && (GetWindowsMinorVersion() == 2 || GetWindowsMinorVersion() == 3);
         public static bool IsNotWindows8x => !IsWindows8x;
+        public static bool IsLinux => RuntimeInformation.IsOSPlatform(OSPlatform.Linux);
         public static bool IsOSX => RuntimeInformation.IsOSPlatform(OSPlatform.OSX);
         public static bool IsNetBSD => RuntimeInformation.IsOSPlatform(OSPlatform.Create("NETBSD"));
         public static bool IsOpenSUSE => IsDistroAndVersion("opensuse");
@@ -169,7 +170,7 @@ namespace System
         {
             // https://github.com/Microsoft/BashOnWindows/issues/423#issuecomment-221627364
 
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            if (IsLinux)
             {
                 const string versionFile = "/proc/version";
                 if (File.Exists(versionFile))
@@ -200,7 +201,7 @@ namespace System
         /// <returns>Whether the OS platform matches the given Linux distro and optional version.</returns>
         private static bool IsDistroAndVersion(string distroId, string versionId = null)
         {
-            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            if (IsLinux)
             {
                 DistroInfo v = ParseOsReleaseFile();
                 if (v.Id == distroId && (versionId == null || v.VersionId == versionId))
@@ -212,21 +213,31 @@ namespace System
             return false;
         }
 
-        public static string GetDistroVersionString()
+        public static string GetDescription()
         {
-            if (!RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            if (IsLinux)
             {
-                return "";
+                DistroInfo v = ParseOsReleaseFile();
+                return string.Format("Linux Distro={0} VersionId={1} Pretty={2} Version={3}", v.Id, v.VersionId, v.PrettyName, v.Version);
             }
 
-            DistroInfo v = ParseOsReleaseFile();
+            if (IsWindows)
+            {            
+                RTL_OSVERSIONINFOEX osvi = new RTL_OSVERSIONINFOEX();
+                osvi.dwOSVersionInfoSize = (uint)Marshal.SizeOf(osvi);
+                if (RtlGetVersion(ref osvi) == 0)
+                {
+                    return string.Format("Microsoft Windows {0}.{1}.{2} VersionString={3} ServicePack={4}.{5} ProductType={6}",
+                        osvi.dwMajorVersion, osvi.dwMinorVersion, osvi.dwBuildNumber, osvi.szCSDVersion, osvi.wServicePackMajor, osvi.wServicePackMinor, osvi.wProductType);
+                }
+            }
 
-            return "Distro=" + v.Id + " VersionId=" + v.VersionId + " Pretty=" + v.PrettyName + " Version=" + v.Version;
+            return "";
         }
 
         private static DistroInfo ParseOsReleaseFile()
         {
-            Debug.Assert(RuntimeInformation.IsOSPlatform(OSPlatform.Linux));
+            Debug.Assert(IsLinux);
 
             DistroInfo ret = new DistroInfo();
             ret.Id = "";
@@ -286,7 +297,7 @@ namespace System
             {
                 RTL_OSVERSIONINFOEX osvi = new RTL_OSVERSIONINFOEX();
                 osvi.dwOSVersionInfoSize = (uint)Marshal.SizeOf(osvi);
-                Assert.Equal(0, RtlGetVersion(out osvi));
+                Assert.Equal(0, RtlGetVersion(ref osvi));
                 return (int)osvi.dwMajorVersion;
             }
 
@@ -299,7 +310,7 @@ namespace System
             {
                 RTL_OSVERSIONINFOEX osvi = new RTL_OSVERSIONINFOEX();
                 osvi.dwOSVersionInfoSize = (uint)Marshal.SizeOf(osvi);
-                Assert.Equal(0, RtlGetVersion(out osvi));
+                Assert.Equal(0, RtlGetVersion(ref osvi));
                 return (int)osvi.dwMinorVersion;
             }
 
@@ -312,7 +323,7 @@ namespace System
             {
                 RTL_OSVERSIONINFOEX osvi = new RTL_OSVERSIONINFOEX();
                 osvi.dwOSVersionInfoSize = (uint)Marshal.SizeOf(osvi);
-                Assert.Equal(0, RtlGetVersion(out osvi));
+                Assert.Equal(0, RtlGetVersion(ref osvi));
                 return (int)osvi.dwBuildNumber;
             }
 
@@ -320,7 +331,7 @@ namespace System
         }
 
         [DllImport("ntdll.dll")]
-        private static extern int RtlGetVersion(out RTL_OSVERSIONINFOEX lpVersionInformation);
+        private static extern int RtlGetVersion(ref RTL_OSVERSIONINFOEX lpVersionInformation);
 
         [StructLayout(LayoutKind.Sequential)]
         private struct RTL_OSVERSIONINFOEX
@@ -330,8 +341,13 @@ namespace System
             internal uint dwMinorVersion;
             internal uint dwBuildNumber;
             internal uint dwPlatformId;
-            [MarshalAs(UnmanagedType.ByValTStr, SizeConst = 128)]
+            [MarshalAs(UnmanagedType.LPWStr, SizeConst = 128)]
             internal string szCSDVersion;
+            internal ushort wServicePackMajor;
+            internal ushort wServicePackMinor;
+            internal ushort wSuiteMask;
+            internal byte wProductType;
+            internal byte wReserved;
         }
 
         private static int s_isWindowsElevated = -1;
