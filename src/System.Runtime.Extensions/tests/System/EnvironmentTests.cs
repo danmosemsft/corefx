@@ -360,7 +360,7 @@ namespace System.Tests
         [InlineData(Environment.SpecialFolder.ProgramFiles)]
         [InlineData(Environment.SpecialFolder.CommonProgramFiles)]
         [InlineData(Environment.SpecialFolder.AdminTools)]
-        [InlineData(Environment.SpecialFolder.CDBurning)]
+        // [InlineData(Environment.SpecialFolder.CDBurning)]
         [InlineData(Environment.SpecialFolder.CommonAdminTools)]
         [InlineData(Environment.SpecialFolder.CommonDocuments)]
         [InlineData(Environment.SpecialFolder.CommonMusic)]
@@ -387,7 +387,6 @@ namespace System.Tests
         public unsafe void GetFolderPath_Windows(Environment.SpecialFolder folder)
         {
             string knownFolder = Environment.GetFolderPath(folder);
-            Assert.NotEmpty(knownFolder);
 
             // Call the older folder API to compare our results.
             char* buffer = stackalloc char[260];
@@ -395,6 +394,7 @@ namespace System.Tests
             string folderPath = new string(buffer);
 
             Assert.Equal(folderPath, knownFolder);
+            Assert.NotEmpty(knownFolder);            
         }
 
         [Fact]
