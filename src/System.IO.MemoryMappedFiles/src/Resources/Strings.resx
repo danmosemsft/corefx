@@ -88,6 +88,12 @@
   <data name="IO_PathTooLong" xml:space="preserve">
     <value>The specified file name or path is too long, or a component of the specified path is too long.</value>
   </data>
+  <data name="IO_PathTooLong_Path" xml:space="preserve">
+    <value>The path '{0}' is too long, or a component of the specified path is too long.</value>
+  </data>
+  <data name="IO_DriveNotFound_Drive" xml:space="preserve">
+    <value>Could not find the drive '{0}'. The drive might not be ready or might not be mapped.</value>
+  </data>
   <data name="UnauthorizedAccess_IODenied_Path" xml:space="preserve">
     <value>Access to the path '{0}' is denied.</value>
   </data>
