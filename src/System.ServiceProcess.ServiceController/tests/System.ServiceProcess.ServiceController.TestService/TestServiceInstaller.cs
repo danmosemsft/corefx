@@ -14,6 +14,8 @@ namespace System.ServiceProcess.Tests
     {
         public const string LocalServiceName = "NT AUTHORITY\\LocalService";
 
+        private string removalStack;
+
         public TestServiceInstaller()
         {
         }
@@ -129,7 +131,17 @@ namespace System.ServiceProcess.Tests
         public void RemoveService()
         {
             if (ServiceName == null)
-                throw new InvalidOperationException("Already removed service");
+                throw new InvalidOperationException($"Already removed service at stack ${removalStack}");
+
+            // Store the stack for logging in case we're called twice
+            try
+            {
+                throw new Exception();
+            }
+            catch (Exception e)
+            {
+                removalStack = e.StackTrace;
+            }
 
             // Stop the service
             using (ServiceController svc = new ServiceController(ServiceName))
