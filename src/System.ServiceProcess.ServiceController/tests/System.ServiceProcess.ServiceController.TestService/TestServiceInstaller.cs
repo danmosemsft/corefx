@@ -128,6 +128,9 @@ namespace System.ServiceProcess.Tests
 
         public void RemoveService()
         {
+            if (ServiceName == null)
+                throw new InvalidOperationException("Already removed service");
+
             // Stop the service
             using (ServiceController svc = new ServiceController(ServiceName))
             {
@@ -161,6 +164,8 @@ namespace System.ServiceProcess.Tests
 
                 Interop.Advapi32.CloseServiceHandle(serviceManagerHandle);
             }
+
+            ServiceName = null;
         }
     }
 }
