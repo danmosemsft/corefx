@@ -37,7 +37,7 @@ namespace System.ComponentModel.Composition.Diagnostics
             }
         }
 
-#if FEATURE_REFLECTIONFILEIO
+//#if FEATURE_REFLECTIONFILEIO
 
         internal static void AssemblyLoadFailed(DirectoryCatalog catalog, string fileName, Exception exception)
         {
@@ -54,7 +54,7 @@ namespace System.ComponentModel.Composition.Diagnostics
             }
         }
 
-#endif //FEATURE_REFLECTIONFILEIO
+//#endif //FEATURE_REFLECTIONFILEIO
 
         internal static void DefinitionMarkedWithPartNotDiscoverableAttribute(Type type)
         {

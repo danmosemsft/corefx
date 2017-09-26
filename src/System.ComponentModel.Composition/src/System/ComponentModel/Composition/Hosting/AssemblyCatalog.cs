@@ -147,7 +147,7 @@ namespace System.ComponentModel.Composition.Hosting
 #endif //FEATURE_REFLECTIONCONTEXT && FEATURE_REFLECTIONFILEIO
 
 
-#if FEATURE_REFLECTIONFILEIO
+//#if FEATURE_REFLECTIONFILEIO
         /// <summary>
         ///     Initializes a new instance of the <see cref="AssemblyCatalog"/> class 
         ///     with the specified code base.
@@ -203,7 +203,7 @@ namespace System.ComponentModel.Composition.Hosting
             InitializeAssemblyCatalog(LoadAssembly(codeBase));
             this._definitionOrigin = definitionOrigin;
         }
-#endif //FEATURE_REFLECTIONFILEIO
+//#endif //FEATURE_REFLECTIONFILEIO
 
 #if FEATURE_REFLECTIONFILEIO && FEATURE_REFLECTIONCONTEXT
         /// <summary>
@@ -579,7 +579,7 @@ namespace System.ComponentModel.Composition.Hosting
                                 this.Assembly.FullName);
         }
 
-#if FEATURE_REFLECTIONFILEIO
+//#if FEATURE_REFLECTIONFILEIO
         private static Assembly LoadAssembly(string codeBase)
         {
             Requires.NotNullOrEmpty(codeBase, "codeBase");
@@ -598,6 +598,6 @@ namespace System.ComponentModel.Composition.Hosting
 
             return Assembly.Load(assemblyName);
         }
-#endif //FEATURE_REFLECTIONFILEIO
+//#endif //FEATURE_REFLECTIONFILEIO
     }
 }

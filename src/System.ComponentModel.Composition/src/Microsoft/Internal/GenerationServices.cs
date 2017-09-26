@@ -160,7 +160,7 @@ namespace Microsoft.Internal
             else
             {
                 throw new InvalidOperationException(
-                    string.Format(CultureInfo.CurrentCulture, Strings.InvalidMetadataValue, value.GetType().FullName));
+                    string.Format(CultureInfo.CurrentCulture, SR.InvalidMetadataValue, value.GetType().FullName));
             }
         }
 

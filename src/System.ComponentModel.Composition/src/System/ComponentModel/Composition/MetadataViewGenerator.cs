@@ -94,24 +94,7 @@ namespace System.ComponentModel.Composition
 
         private static AssemblyBuilder CreateProxyAssemblyBuilder(ConstructorInfo constructorInfo)
         {
-#if FEATURE_CAS_APTCA
-        object[] args = new object[0];
-            CustomAttributeBuilder accessAttribute = new CustomAttributeBuilder(constructorInfo, args);
-            CustomAttributeBuilder[] attributes = { accessAttribute };
-
-            // For Homogenous app domains we should use the SecurityContextSource from the current AppDomain.
-            // Otherwise the clr will use the Current Assembly --- which will make it full trust, this is the same behavior as V1.0 mef.
-            if(AppDomain.CurrentDomain.IsHomogenous)
-            {
-                return AppDomain.CurrentDomain.DefineDynamicAssembly(ProxyAssemblyName, AssemblyBuilderAccess.Run, attributes, SecurityContextSource.CurrentAppDomain);
-            }
-            else
-            {
-                return AppDomain.CurrentDomain.DefineDynamicAssembly(ProxyAssemblyName, AssemblyBuilderAccess.Run, attributes);
-            }
-#else
-            return AppDomain.CurrentDomain.DefineDynamicAssembly(ProxyAssemblyName, AssemblyBuilderAccess.Run);
-#endif //FEATURE_CAS_APTCA
+            return AssemblyBuilder.DefineDynamicAssembly(ProxyAssemblyName, AssemblyBuilderAccess.Run);
         }
 
         // Must be called with _lock held
