@@ -73,7 +73,7 @@ namespace System.ComponentModel.Composition
         NonShared = 2,
         Shared = 1,
     }
-    [System.AttributeUsageAttribute(452, AllowMultiple=true, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class | AttributeTargets.Field | AttributeTargets.Property | AttributeTargets.Method, AllowMultiple=true, Inherited=false)]
     public partial class ExportAttribute : System.Attribute
     {
         public ExportAttribute() { }
@@ -99,7 +99,7 @@ namespace System.ComponentModel.Composition
         public T Value { get { throw null; } }
         public void Dispose() { }
     }
-    [System.AttributeUsageAttribute(1476, AllowMultiple=true, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class | AttributeTargets.Interface | AttributeTargets.Property | AttributeTargets.Method | AttributeTargets.Field, AllowMultiple=true, Inherited=false)]
     public sealed partial class ExportMetadataAttribute : System.Attribute
     {
         public ExportMetadataAttribute(string name, object value) { }
@@ -111,7 +111,7 @@ namespace System.ComponentModel.Composition
     {
         void SatisfyImportsOnce(System.ComponentModel.Composition.Primitives.ComposablePart part);
     }
-    [System.AttributeUsageAttribute(2432, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Property | AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple=false, Inherited=false)]
     public partial class ImportAttribute : System.Attribute
     {
         public ImportAttribute() { }
@@ -132,7 +132,7 @@ namespace System.ComponentModel.Composition
         public ImportCardinalityMismatchException(string message) { }
         public ImportCardinalityMismatchException(string message, System.Exception innerException) { }
     }
-    [System.AttributeUsageAttribute(32, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Constructor, AllowMultiple=false, Inherited=false)]
     public partial class ImportingConstructorAttribute : System.Attribute
     {
         public ImportingConstructorAttribute() { }
