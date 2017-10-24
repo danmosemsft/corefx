@@ -137,7 +137,7 @@ namespace System.ComponentModel.Composition
     {
         public ImportingConstructorAttribute() { }
     }
-    [System.AttributeUsageAttribute(2432, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Parameter | AttributeTargets.Field | AttributeTargets.Property, AllowMultiple=false, Inherited=false)]
     public partial class ImportManyAttribute : System.Attribute
     {
         public ImportManyAttribute() { }
@@ -156,7 +156,7 @@ namespace System.ComponentModel.Composition
         Local = 1,
         NonLocal = 2,
     }
-    [System.AttributeUsageAttribute(1028, AllowMultiple=true, Inherited=true)]
+    [System.AttributeUsageAttribute(AttributeTargets.Interface | AttributeTargets.Class, AllowMultiple=true, Inherited=true)]
     public partial class InheritedExportAttribute : System.ComponentModel.Composition.ExportAttribute
     {
         public InheritedExportAttribute() { }
@@ -168,31 +168,31 @@ namespace System.ComponentModel.Composition
     {
         void OnImportsSatisfied();
     }
-    [System.AttributeUsageAttribute(4, AllowMultiple=false, Inherited=true)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class, AllowMultiple=false, Inherited=true)]
     public sealed partial class MetadataAttributeAttribute : System.Attribute
     {
         public MetadataAttributeAttribute() { }
     }
-    [System.AttributeUsageAttribute(1024, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Interface, AllowMultiple=false, Inherited=false)]
     public sealed partial class MetadataViewImplementationAttribute : System.Attribute
     {
         public MetadataViewImplementationAttribute(System.Type implementationType) { }
         public System.Type ImplementationType { [System.Runtime.CompilerServices.CompilerGeneratedAttribute]get { throw null; } }
     }
-    [System.AttributeUsageAttribute(4, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class, AllowMultiple=false, Inherited=false)]
     public sealed partial class PartCreationPolicyAttribute : System.Attribute
     {
         public PartCreationPolicyAttribute(System.ComponentModel.Composition.CreationPolicy creationPolicy) { }
         public System.ComponentModel.Composition.CreationPolicy CreationPolicy { [System.Runtime.CompilerServices.CompilerGeneratedAttribute]get { throw null; } }
     }
-    [System.AttributeUsageAttribute(4, AllowMultiple=true, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class, AllowMultiple=true, Inherited=false)]
     public sealed partial class PartMetadataAttribute : System.Attribute
     {
         public PartMetadataAttribute(string name, object value) { }
         public string Name { [System.Runtime.CompilerServices.CompilerGeneratedAttribute]get { throw null; } }
         public object Value { [System.Runtime.CompilerServices.CompilerGeneratedAttribute]get { throw null; } }
     }
-    [System.AttributeUsageAttribute(4, AllowMultiple=false, Inherited=false)]
+    [System.AttributeUsageAttribute(AttributeTargets.Class, AllowMultiple=false, Inherited=false)]
     public sealed partial class PartNotDiscoverableAttribute : System.Attribute
     {
         public PartNotDiscoverableAttribute() { }
@@ -488,7 +488,7 @@ namespace System.ComponentModel.Composition.Primitives
     public abstract partial class ComposablePartCatalog : System.Collections.Generic.IEnumerable<System.ComponentModel.Composition.Primitives.ComposablePartDefinition>, System.Collections.IEnumerable, System.IDisposable
     {
         protected ComposablePartCatalog() { }
-        [System.ComponentModel.EditorBrowsableAttribute(1)]
+        [System.ComponentModel.EditorBrowsableAttribute(EditorBrowsableState.Never)]
         public virtual System.Linq.IQueryable<System.ComponentModel.Composition.Primitives.ComposablePartDefinition> Parts { get { throw null; } }
         public void Dispose() { }
         protected virtual void Dispose(bool disposing) { }
