@@ -6,7 +6,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'netfx-Debug|AnyCPU'" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'netfx-Release|AnyCPU'" />
   <PropertyGroup>
-    <ProjectGuid>{59f4682d-c41d-45a7-9798-16c75525bb1d}</ProjectGuid>
+    <ProjectGuid>{59F4682D-C41D-45A7-9798-16C75525BB1D}</ProjectGuid>
   </PropertyGroup>
   <ItemGroup>
   </ItemGroup>
