@@ -87,11 +87,12 @@ namespace System.Text.RegularExpressions
 
                     case RegexNode.Oneloop:
                     case RegexNode.Onelazy:
+
+                        int cutoff = 1_000_000; // In release, cutoff at a length to which we can reasonably construct a string
 #if DEBUG
-                        if (curNode._m > 0 && curNode._m < 50) // In debug, exercise the cutoff path
-#else // DEBUG
-                        if (curNode._m > 0 && curNode._m < 1_000_000) // In release, cutoff at a length to which we can reasonably construct a string
+                        cutoff = 50; // In debug, use a smaller cutoff to exercise the cutoff path
 #endif // DEBUG
+                        if (curNode._m > 0 && curNode._m < cutoff)
                         {
                             string pref = string.Empty.PadRight(curNode._m, curNode._ch);
                             return new RegexPrefix(pref, 0 != (curNode._options & RegexOptions.IgnoreCase));
