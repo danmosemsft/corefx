@@ -433,6 +433,20 @@ namespace System.Text.RegularExpressions
                     }
                 }
             }
+            else if (RegexCharClass.IsDoubleton(set))
+            {
+                (char a, char b) chars = RegexCharClass.DoubletonChars(set);
+
+                for (i = Forwardchars(); i > 0; i--)
+                {
+                    char ch = Forwardcharnext();
+                    if (ch == chars.a || ch == chars.b)
+                    {
+                        Backwardnext();
+                        return true;
+                    }
+                }
+            }
             else
             {
                 for (i = Forwardchars(); i > 0; i--)
