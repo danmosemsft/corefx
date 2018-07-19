@@ -72,32 +72,37 @@ namespace System.IO.Tests
         {
             FileInfo input = new FileInfo(Path.Combine(TestDirectory, GetTestFileName()));
             input.Create().Dispose();
+ 
+            var driveInfo = new DriveInfo(input.DirectoryName);
+            // AppContainer restricts access to DriveFormat (::GetVolumeInformation)
+            var driveFormat = PlatformDetection.IsInAppContainer ? "" : driveInfo.DriveFormat;
 
-            string driveFormat = new DriveInfo(input.DirectoryName).DriveFormat;
-            if (!driveFormat.Equals(HFS, StringComparison.InvariantCultureIgnoreCase))
+            if (driveFormat.Equals(HFS, StringComparison.InvariantCultureIgnoreCase)
             {
-                for (int i = 0; i < 5; i++)
-                {
-                    if (input.LastWriteTime.Millisecond != 0)
-                        break;
-
-                    // This case should only happen 1/1000 times, unless the OS/Filesystem does
-                    // not support millisecond granularity.
-
-                    // If it's 1/1000, or low granularity, this may help:
-                    Thread.Sleep(1234);
-                    input = new FileInfo(Path.Combine(TestDirectory, GetTestFileName()));
-                    input.Create().Dispose();
-                }
-
-                FileInfo output = new FileInfo(Path.Combine(TestDirectory, GetTestFileName(), input.Name));
-                Assert.Equal(0, output.LastWriteTime.Millisecond);
-                output.Directory.Create();
-                output = input.CopyTo(output.FullName, true);
-
-                Assert.NotEqual(0, input.LastWriteTime.Millisecond);
-                Assert.NotEqual(0, output.LastWriteTime.Millisecond);
+                return;
             }
+
+            for (int i = 0; i < 5; i++)
+            {
+                if (input.LastWriteTime.Millisecond != 0)
+                    break;
+
+                // This case should only happen 1/1000 times, unless the OS/Filesystem does
+                // not support millisecond granularity.
+
+                // If it's 1/1000, or low granularity, this may help:
+                Thread.Sleep(1234);
+                input = new FileInfo(Path.Combine(TestDirectory, GetTestFileName()));
+                input.Create().Dispose();
+            }
+
+            FileInfo output = new FileInfo(Path.Combine(TestDirectory, GetTestFileName(), input.Name));
+            Assert.Equal(0, output.LastWriteTime.Millisecond);
+            output.Directory.Create();
+            output = input.CopyTo(output.FullName, true);
+
+            Assert.NotEqual(0, input.LastWriteTime.Millisecond);
+            Assert.NotEqual(0, output.LastWriteTime.Millisecond);
         }
 
         [Fact]
