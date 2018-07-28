@@ -1,0 +1,13 @@
+[[AbnormalApiExit]]=Abnormales Beenden eines API-Aufrufs
+[[Abort]]=Abbrechen der gewünschten Operation
+[[ActionNotSupported]]=Diese Aktion wird vom angegebenen Objekt nicht unterstützt
+[[AggregateParmTypeMismatch]]=Unverträgliche Datentypen: Datenfeld oder benutzerdefinierter Typ erwartet
+[[AllFunctions]]=(Alle Prozeduren)
+[[AllModules]]=(Alle Module)
+[[AlreadyLoaded]]=Objekt bereits geladen
+[[AmbiguousName]]=Mehrdeutiger Name
+
+
+*******
+NOTE:  All of these strings are just test data.
+*******

@@ -1,0 +1,189 @@
+----DDB---
+CorVal - 1
+57.3268063538875
+CorVal - 2
+184.194898366662
+CorVal - 3
+207.790109365989
+DefVal
+57.3268063538875
+InconVal
+0
+SplCase
+0
+Negative input values: Error =5
+----FV----
+CorVal - 1
+-4182.65729113816
+CorVal - 2
+-29860.9051541809
+CorVal - 3
+-4495.27236141772
+Default Values 1
+-4182.65729113816
+Default Values 2
+-4182.65729113816
+rate < 0
+-3723.83765008048
+rate = 0
+-3945
+type <> 0 and type <> 1
+-4217.37334665461
+OverFlow
+-1.797E+303
+----IPmt----
+CorVal - 1
+-18.2133959841799
+CorVal - 2
+-24.7440714828291
+CorVal - 3
+-32.2391587542905
+DefVal
+-18.2133959841799
+-18.2133959841799
+Spl
+17.7814213334481
+-18.0688452224006
+0
+per  < 0: Error =5
+nper < 0: Error =5
+per > nper: Error =5
+----IRR----
+CorVal - 1
+0.177435884421108
+CorVal - 2
+0.0866720474291716
+CorVal -3
+0.10928101434576
+IRR with empty array: Error =5
+IRR with all positive cash flows: Error =5
+IRR with all negative cash flows: Error =5
+----NPer----
+CorVal - 1
+21.6727748893013
+CorVal - 2
+52.9127060554833
+CorVal -3
+55.2706372559078
+Default Values 1
+21.6727748893013
+Default Values 2
+21.6727748893013
+rate < 0
+18.6174997871788
+rate = 0
+20
+Type <> 0 and Type <> 1
+21.5052532943763
+pmt > pv
+0.0223039109268324
+----NPV----
+First set of input
+19312.5702095352
+Second set of input
+-41.8655316029477
+Third set of input
+10423.4025719865
+rate < 0
+13681.9191276061
+All positive cash flows
+151077.276091888
+All negative cash flows
+-151077.276091888
+NPV with Rate = -1: Error =5
+NPV with empty array: Error =5
+----PPmt----
+CorVal - 1
+-244.976482926292
+CorVal - 2
+-23.1486833595771
+CorVal -3
+-33.8688007923638
+DefVal
+-244.976482926292
+-244.976482926292
+Spl
+-254.972824918514
+-243.03222512529
+----PV----
+CorVal - 1
+-54717.4159104136
+CorVal - 2
+-12449.3560902104
+CorVal -3
+-8005.58690087404
+DefVal
+-2952.94485232014
+-2952.94485232014
+Spl
+-70684.6496700943
+-62000
+70049.0217362546
+OverFlow
+-1797
+----Rate----
+CorVal - 1
+0.00788643837763396
+CorVal - 2
+0.00522401643399906
+CorVal -3
+0.0120002073302547
+Default Value 1
+0.00788643837763396
+Default Value 2
+0.00788643837763396
+ pmt > pv
+-1.98502387722876
+nper < 0: Error =5
+----Pmt----
+CorVal - 1
+131.224540233228
+CorVal - 2
+-2173.61322345131
+CorVal -3
+-100.360287827152
+DefVal
+131.224540233228
+131.224540233228
+Spl
+109.386677326841
+110.224540233228
+-130.31235375693
+-120
+----SLN----
+CorVal - 1
+200
+CorVal - 2
+4837.42857142857
+CorVal -3
+0.075
+Spl
+-200
+-200
+416.666666666667
+200
+----SYD----
+CorVal - 1
+62.5557201036653
+CorVal - 2
+11081.7777777778
+CorVal -3
+0.9004329004329
+Overflow test
+1.80198019801978E+304
+Salvage > cost
+-62.5557201036653
+period > life: Error =5
+life = 0: Error =5
+period = 0: Error =5
+All parameters negative: Error =5
+All parameters zero: Error =5
+----MIRR----
+CorVal - 1
+0.155127062819277
+CorVal - 2
+0.133869710109896
+CorVal -3
+0.152296961950276
+-1
+All positive cash flows: Error =11
