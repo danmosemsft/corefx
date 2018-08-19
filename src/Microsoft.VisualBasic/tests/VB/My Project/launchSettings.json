@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Microsoft.VisualBasic.VB.Tests": {
+      "commandName": "Executable",
+      "executablePath": "C:\\git\\corefx\\bin\\testhost\\netcoreapp-Windows_NT-Debug-x64\\dotnet.exe",
+      "commandLineArgs": "xunit.console.netcore.exe Microsoft.VisualBasic.VB.Tests.dll  -xml testResults.xml -notrait Benchmark=true -notrait category=nonnetcoreapptests -notrait category=nonwindowstests  -notrait category=OuterLoop -notrait category=failing",
+      "workingDirectory": "C:\\git\\corefx\\bin\\tests\\Microsoft.VisualBasic.VB.Tests\\netcoreapp-Windows_NT-Debug-x64"
+    }
+  }
+}
