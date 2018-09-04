@@ -994,7 +994,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = UInt32ToDecChars(buffer + bufferLength, (uint)(-value), digits);
                 Debug.Assert(p == buffer + sNegative.Length);
@@ -1036,7 +1036,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = Int32ToHexChars(buffer + bufferLength, (uint)value, hexBase, digits);
                 Debug.Assert(p == buffer);
@@ -1128,7 +1128,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = buffer + bufferLength;
                 if (digits <= 1)
@@ -1243,7 +1243,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = buffer + bufferLength;
                 while (High32(value) != 0)
@@ -1294,7 +1294,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = buffer + bufferLength;
                 if (High32((ulong)value) != 0)
@@ -1373,7 +1373,7 @@ namespace System
             }
 
             charsWritten = bufferLength;
-            fixed (char* buffer = &MemoryMarshal.GetReference(destination))
+            fixed (char* buffer = destination)
             {
                 char* p = buffer + bufferLength;
                 while (High32(value) != 0)
@@ -1603,7 +1603,7 @@ SkipSign:
                 scaleAdjust = 0;
                 src = section;
 
-                fixed (char* pFormat = &MemoryMarshal.GetReference(format))
+                fixed (char* pFormat = format)
                 {
                     while (src < format.Length && (ch = pFormat[src++]) != 0 && ch != ';')
                     {
@@ -1772,7 +1772,7 @@ SkipSign:
 
             bool decimalWritten = false;
 
-            fixed (char* pFormat = &MemoryMarshal.GetReference(format))
+            fixed (char* pFormat = format)
             {
                 char* cur = dig;
 
@@ -1993,7 +1993,7 @@ SkipSign:
                     int digitCount = 0;
                     int digLength = string.wcslen(dig);
                     int digStart = (digPos < digLength) ? digPos : digLength;
-                    fixed (char* spanPtr = &MemoryMarshal.GetReference(sb.AppendSpan(bufferSize)))
+                    fixed (char* spanPtr = sb.AppendSpan(bufferSize))
                     {
                         char* p = spanPtr + bufferSize - 1;
                         for (int i = digPos - 1; i >= 0; i--)
@@ -2233,7 +2233,7 @@ SkipSign:
             if (section == 0)
                 return 0;
 
-            fixed (char* pFormat = &MemoryMarshal.GetReference(format))
+            fixed (char* pFormat = format)
             {
                 src = 0;
                 for (;;)

@@ -21,7 +21,7 @@ namespace System.Security.Cryptography
             out int bytesRead,
             out TRet ret)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(source))
+            fixed (byte* ptr = source)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, source.Length))
                 {
@@ -90,7 +90,7 @@ namespace System.Security.Cryptography
             out int bytesRead,
             out TRet ret)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(source))
+            fixed (byte* ptr = source)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, source.Length))
                 {
@@ -148,7 +148,7 @@ namespace System.Security.Cryptography
             out int bytesRead,
             out TRet ret)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(source))
+            fixed (byte* ptr = source)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, source.Length))
                 {
@@ -165,7 +165,7 @@ namespace System.Security.Cryptography
             out int bytesRead,
             out TRet ret)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(source))
+            fixed (byte* ptr = source)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, source.Length))
                 {
@@ -219,7 +219,7 @@ namespace System.Security.Cryptography
             out int bytesRead,
             out TRet ret)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(source))
+            fixed (byte* ptr = source)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, source.Length))
                 {
@@ -433,7 +433,7 @@ namespace System.Security.Cryptography
 
         private static unsafe void WriteEncodedSpan(AsnWriter writer, ReadOnlySpan<byte> encodedValue)
         {
-            fixed (byte* ptr = &MemoryMarshal.GetReference(encodedValue))
+            fixed (byte* ptr = encodedValue)
             {
                 using (MemoryManager<byte> manager = new PointerMemoryManager<byte>(ptr, encodedValue.Length))
                 {

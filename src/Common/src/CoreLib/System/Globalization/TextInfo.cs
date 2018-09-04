@@ -383,8 +383,8 @@ namespace System.Globalization
                 return;
             }
 
-            fixed (char* pSource = &MemoryMarshal.GetReference(source))
-            fixed (char* pResult = &MemoryMarshal.GetReference(destination))
+            fixed (char* pSource = source)
+            fixed (char* pResult = destination)
             {
                 if (IsAsciiCasingSameAsInvariant)
                 {

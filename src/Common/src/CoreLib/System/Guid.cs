@@ -1361,7 +1361,7 @@ namespace System
 
             unsafe
             {
-                fixed (char* guidChars = &MemoryMarshal.GetReference(destination))
+                fixed (char* guidChars = destination)
                 {
                     char * p = guidChars;
 
