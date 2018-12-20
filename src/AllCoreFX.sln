@@ -1,0 +1,1760 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28416.103
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Tests", "Common\tests\Common.Tests.csproj", "{269234D2-5AAA-48BF-AC03-DE489A240A8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreFx.Private.TestUtilities", "CoreFx.Private.TestUtilities\ref\CoreFx.Private.TestUtilities.csproj", "{69E1F439-C3B5-47BB-BBDB-8F932328CA66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreFx.Private.TestUtilities", "CoreFx.Private.TestUtilities\src\CoreFx.Private.TestUtilities.csproj", "{FBEEF827-B98A-431D-9A2A-CFC80B2E13A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreFx.Private.TestUtilities.Tests", "CoreFx.Private.TestUtilities\tests\CoreFx.Private.TestUtilities.Tests.csproj", "{163710FC-E913-4A13-8753-403BDB2C3CB5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CSharp", "Microsoft.CSharp\ref\Microsoft.CSharp.csproj", "{323C6B0D-31CE-4BE4-8E3A-D5C6918F5FD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CSharp", "Microsoft.CSharp\src\Microsoft.CSharp.csproj", "{F4B33A75-65DD-4ACC-8684-DD4E7B3A84B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.CSharp.Tests", "Microsoft.CSharp\tests\Microsoft.CSharp.Tests.csproj", "{5D1C56F2-271D-4099-BCE5-27DC02E309A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Diagnostics.Tracing.EventSource.Redist", "Microsoft.Diagnostics.Tracing.EventSource.Redist\src\Microsoft.Diagnostics.Tracing.EventSource.Redist.csproj", "{83DD1F8F-E369-4638-9C87-0470A073FD7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Diagnostics.Tracing.EventSource.Redist.Tests", "Microsoft.Diagnostics.Tracing.EventSource.Redist\tests\Microsoft.Diagnostics.Tracing.EventSource.Redist.Tests.csproj", "{2A66404E-CAA0-4C3E-A303-ED62A455C53A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.IO.Redist", "Microsoft.IO.Redist\src\Microsoft.IO.Redist.csproj", "{C548A41B-F046-4C9B-8F13-16A90BC3B189}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualBasic", "Microsoft.VisualBasic\ref\Microsoft.VisualBasic.csproj", "{0D3B8ED5-752C-4D63-8B1B-7A48D17B119B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.VisualBasic.Tests", "Microsoft.VisualBasic\tests\Microsoft.VisualBasic.Tests.csproj", "{AAC81A2C-B55D-47C2-9C79-0F774B6D23A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Primitives", "Microsoft.Win32.Primitives\ref\Microsoft.Win32.Primitives.csproj", "{8ECFBCE2-46E8-42F9-98F9-085737801E3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Primitives", "Microsoft.Win32.Primitives\src\Microsoft.Win32.Primitives.csproj", "{A9A5B0F0-99A1-483B-BB55-C8A1339AC334}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Primitives.Tests", "Microsoft.Win32.Primitives\tests\Microsoft.Win32.Primitives.Tests.csproj", "{134B7FA5-BF25-465E-AB90-7E2C5CA0A934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry", "Microsoft.Win32.Registry\ref\Microsoft.Win32.Registry.csproj", "{8EC95E88-AB5B-4F77-8974-90A4D2F377F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry", "Microsoft.Win32.Registry\src\Microsoft.Win32.Registry.csproj", "{BC825A6C-52AA-4887-82FD-57FDB7F3AEE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry.Tests", "Microsoft.Win32.Registry\tests\Microsoft.Win32.Registry.Tests.csproj", "{51C8B628-56C7-44F7-94A3-EFC10F26285C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry.AccessControl", "Microsoft.Win32.Registry.AccessControl\ref\Microsoft.Win32.Registry.AccessControl.csproj", "{A65F6734-4B7C-4AC9-83DE-9503B996609C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry.AccessControl", "Microsoft.Win32.Registry.AccessControl\src\Microsoft.Win32.Registry.AccessControl.csproj", "{B03EB034-9922-45FA-95D2-FA7182D4272B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.Registry.AccessControl.Tests", "Microsoft.Win32.Registry.AccessControl\tests\Microsoft.Win32.Registry.AccessControl.Tests.csproj", "{41F72E06-D55D-435E-A9AA-9FACF2CEA43D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.SystemEvents", "Microsoft.Win32.SystemEvents\ref\Microsoft.Win32.SystemEvents.csproj", "{812F60B1-326A-4926-AB35-35BC0309DD96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.SystemEvents", "Microsoft.Win32.SystemEvents\src\Microsoft.Win32.SystemEvents.csproj", "{6C09EC40-76B0-4928-8F05-D6B68C42F0B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Win32.SystemEvents.Tests", "Microsoft.Win32.SystemEvents\tests\Microsoft.Win32.SystemEvents.Tests.csproj", "{E2878218-6E02-4A65-A03A-0AB332FFE16D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.XmlSerializer.Generator", "Microsoft.XmlSerializer.Generator\src\Microsoft.XmlSerializer.Generator.csproj", "{DCCD3992-1D1C-465E-AAB1-5B8E3B317300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.XmlSerializer.Generator.Tests", "Microsoft.XmlSerializer.Generator\tests\Microsoft.XmlSerializer.Generator.Tests.csproj", "{EDB88DB6-35AA-4F66-9C0D-B96E6AA3A19C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mscorlib.WinRT-Facade", "mscorlib.WinRT-Facade\ref\mscorlib.WinRT-Facade.csproj", "{A2389C06-3DB7-4EA5-9C8A-74B5574AFD68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestoreSDKProject", "SharedFrameworkValidation\RestoreSDKProject\RestoreSDKProject.csproj", "{92847F6C-6BD6-46A6-91F1-A9A8BC7837E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mscorlib", "shims\manual\mscorlib.csproj", "{3C9A72F5-D101-4AD7-9375-53C98B286A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System", "shims\manual\System.csproj", "{A37EB740-0864-4B80-89B2-A130281ADAD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data", "shims\manual\System.Data.csproj", "{D3546084-DDF8-472A-904A-EDBB23F81B00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.AppContext", "System.AppContext\ref\System.AppContext.csproj", "{661EF585-61F8-4E29-A236-B6F4C7EAC906}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.AppContext", "System.AppContext\src\System.AppContext.csproj", "{A64CC787-B276-404F-99A7-AD037B84322A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.AppContext.Tests", "System.AppContext\tests\System.AppContext.Tests.csproj", "{3A26600B-0F8F-4E69-944B-E54EA685FA5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Buffers", "System.Buffers\ref\System.Buffers.csproj", "{693E070F-FFFB-4054-9E15-6A2738A6F56B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Buffers", "System.Buffers\src\System.Buffers.csproj", "{7F7DC826-E01C-4628-913A-0C7AE9E0725B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Buffers.Tests", "System.Buffers\tests\System.Buffers.Tests.csproj", "{F2D91181-3700-4B73-B58A-86E20A012A3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.CodeDom", "System.CodeDom\ref\System.CodeDom.csproj", "{2FC85C74-12E5-4654-91B2-CF7D8312D6BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.CodeDom", "System.CodeDom\src\System.CodeDom.csproj", "{A61FD8A2-A742-4CB3-8933-C0BA7002CCFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.CodeDom.Tests", "System.CodeDom\tests\System.CodeDom.Tests.csproj", "{7A02B872-E0FC-44ED-8AD2-073749680033}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections", "System.Collections\ref\System.Collections.csproj", "{DF66B8A9-711A-42A7-9032-E592603E179B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections", "System.Collections\src\System.Collections.csproj", "{A50C13DB-2F53-4263-99F0-C5E759B0234D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Tests", "System.Collections\tests\System.Collections.Tests.csproj", "{80483EEF-B1E0-4891-BF4F-A45E807EC348}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Concurrent", "System.Collections.Concurrent\ref\System.Collections.Concurrent.csproj", "{26A09C31-BC57-49B3-8C3F-8D3466EFBE17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Concurrent", "System.Collections.Concurrent\src\System.Collections.Concurrent.csproj", "{CEC5D243-7B6F-4BB5-ADA9-2A110F350CE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Concurrent.Tests", "System.Collections.Concurrent\tests\System.Collections.Concurrent.Tests.csproj", "{CD080F31-BB41-432E-A06A-2871995E1182}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Immutable", "System.Collections.Immutable\ref\System.Collections.Immutable.csproj", "{74D79A06-5A87-447A-8D20-AE064780E7E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Immutable", "System.Collections.Immutable\src\System.Collections.Immutable.csproj", "{26308A7D-6C7A-4118-A9AE-3A3C725B6682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Immutable.Tests", "System.Collections.Immutable\tests\System.Collections.Immutable.Tests.csproj", "{B2D630E3-5FB3-442C-A3DA-F240C7743F76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.NonGeneric", "System.Collections.NonGeneric\ref\System.Collections.NonGeneric.csproj", "{BA29F2C4-0A1D-46FA-AB0F-9E6C5216117A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.NonGeneric", "System.Collections.NonGeneric\src\System.Collections.NonGeneric.csproj", "{ED1B4F46-1F3D-463A-A361-72C6E30B4459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.NonGeneric.Tests", "System.Collections.NonGeneric\tests\System.Collections.NonGeneric.Tests.csproj", "{9F7B493F-F425-46CD-A470-B7FDD22ECFB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Specialized", "System.Collections.Specialized\ref\System.Collections.Specialized.csproj", "{CF09A011-0565-424D-8288-F1A1C14DC9A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Specialized", "System.Collections.Specialized\src\System.Collections.Specialized.csproj", "{1A8C1B6C-66EB-44A3-9605-7B688E98D2EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Specialized.Tests", "System.Collections.Specialized\tests\System.Collections.Specialized.Tests.csproj", "{644AC807-507C-473F-B72F-2246AD2070F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel", "System.ComponentModel\ref\System.ComponentModel.csproj", "{71B8FCF9-01DF-4C4E-BCB1-43D59D9BC75B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel", "System.ComponentModel\src\System.ComponentModel.csproj", "{4D041B5E-3BB0-46D9-A732-28CF90A1F304}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Tests", "System.ComponentModel\tests\System.ComponentModel.Tests.csproj", "{FC4A5BD3-78E6-4E9F-96D3-C1E54ED5194A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Annotations", "System.ComponentModel.Annotations\ref\System.ComponentModel.Annotations.csproj", "{9B7D82A1-AA6E-4882-BBEA-0AF648883697}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Annotations", "System.ComponentModel.Annotations\src\System.ComponentModel.Annotations.csproj", "{3AD9E8FB-A2D5-4464-9AD1-839F748D8333}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Annotations.Tests", "System.ComponentModel.Annotations\tests\System.ComponentModel.Annotations.Tests.csproj", "{AFA18475-F532-4315-A907-6CBB6D3D55F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition", "System.ComponentModel.Composition\ref\System.ComponentModel.Composition.csproj", "{F491B046-F08D-4CFB-8589-E6F7C0BAAE94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition", "System.ComponentModel.Composition\src\System.ComponentModel.Composition.csproj", "{99E7116F-71D0-450C-B313-79DC4440E98B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition.Tests", "System.ComponentModel.Composition\tests\System.ComponentModel.Composition.Tests.csproj", "{FC87A614-09AB-446A-AA47-F22189E0C1A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition.Registration", "System.ComponentModel.Composition.Registration\ref\System.ComponentModel.Composition.Registration.csproj", "{BCC1AD8E-E100-4117-9FAF-91C611DF32B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition.Registration", "System.ComponentModel.Composition.Registration\src\System.ComponentModel.Composition.Registration.csproj", "{C9DE0385-9EB4-48C4-B83D-C71F65DD7710}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition.Registration.Tests", "System.ComponentModel.Composition.Registration\tests\System.ComponentModel.Composition.Registration.Tests.csproj", "{AF8D3122-A45E-4FCD-A4A2-7E61F9BED8F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.EventBasedAsync", "System.ComponentModel.EventBasedAsync\ref\System.ComponentModel.EventBasedAsync.csproj", "{9314D0CD-FF60-410E-8680-529DC0E66BA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.EventBasedAsync", "System.ComponentModel.EventBasedAsync\src\System.ComponentModel.EventBasedAsync.csproj", "{F672BE6D-22C9-4942-988D-1D7A30932B14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.EventBasedAsync.Tests", "System.ComponentModel.EventBasedAsync\tests\System.ComponentModel.EventBasedAsync.Tests.csproj", "{5D1745DE-7155-4913-9504-CAE8F387E110}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Primitives", "System.ComponentModel.Primitives\ref\System.ComponentModel.Primitives.csproj", "{A52A5A7D-42D6-4A94-91C5-5C6A18790798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Primitives", "System.ComponentModel.Primitives\src\System.ComponentModel.Primitives.csproj", "{74F94BA0-F1D8-4DDE-BF28-0B0261F3C262}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Primitives.Tests", "System.ComponentModel.Primitives\tests\System.ComponentModel.Primitives.Tests.csproj", "{3C064316-1EDE-4435-9542-824F5E095135}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.TypeConverter", "System.ComponentModel.TypeConverter\ref\System.ComponentModel.TypeConverter.csproj", "{D1AE826B-5A48-42ED-8D1E-CA5AA0B17FB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.TypeConverter", "System.ComponentModel.TypeConverter\src\System.ComponentModel.TypeConverter.csproj", "{EAC99055-02A8-4175-85A3-8FC7F22F948B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.TypeConverter.Tests", "System.ComponentModel.TypeConverter\tests\System.ComponentModel.TypeConverter.Tests.csproj", "{1D117B05-A7AB-45A9-992E-659F4895D0CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Tests", "System.Composition\tests\System.Composition.Tests.csproj", "{0B0E4185-1D08-4458-9018-6DD794753C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.AttributedModel", "System.Composition.AttributedModel\src\System.Composition.AttributedModel.csproj", "{BA583793-D9D8-4165-81AF-74C078FB4D46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.AttributeModel.Tests", "System.Composition.AttributedModel\tests\System.Composition.AttributeModel.Tests.csproj", "{C1D25619-3B23-4140-9F93-66F840EE7907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Convention", "System.Composition.Convention\src\System.Composition.Convention.csproj", "{A1660EAB-B62B-427D-A956-488E3F7F14A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Convention.Tests", "System.Composition.Convention\tests\System.Composition.Convention.Tests.csproj", "{623BAFB6-1004-4B5C-9C36-4131D2897383}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Hosting", "System.Composition.Hosting\src\System.Composition.Hosting.csproj", "{CB18F6E5-E6E5-44D6-89CE-088B10490685}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Hosting.Tests", "System.Composition.Hosting\tests\System.Composition.Hosting.Tests.csproj", "{CD91C480-EC2A-4FC1-AC6E-004F3807B2EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Runtime", "System.Composition.Runtime\src\System.Composition.Runtime.csproj", "{F90C51E0-D0D1-414C-B103-4CD5DFA89051}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.Runtime.Tests", "System.Composition.Runtime\tests\System.Composition.Runtime.Tests.csproj", "{6C4443F3-6EA6-48D8-9F82-8A1A1E19EE09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.TypedParts", "System.Composition.TypedParts\src\System.Composition.TypedParts.csproj", "{0F1A3C98-4079-48E4-9F9F-C028E978AF76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Composition.TypedParts.Tests", "System.Composition.TypedParts\tests\System.Composition.TypedParts.Tests.csproj", "{C0670D72-972D-4D81-9C4A-6CCA50F1C86C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Configuration.ConfigurationManager", "System.Configuration.ConfigurationManager\ref\System.Configuration.ConfigurationManager.csproj", "{F8FBCF8D-E2DA-4DBA-B9DA-2D2342E1C462}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Configuration.ConfigurationManager", "System.Configuration.ConfigurationManager\src\System.Configuration.ConfigurationManager.csproj", "{FD7EB32C-CD38-49CE-9D0E-623998608A8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Configuration.ConfigurationManager.Tests", "System.Configuration.ConfigurationManager\tests\System.Configuration.ConfigurationManager.Tests.csproj", "{AAA6DEF8-BAA8-49BB-A06D-4A22D5EB69BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Console", "System.Console\ref\System.Console.csproj", "{B5444F52-3862-46F9-A06B-1DBA67C8CE0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Console", "System.Console\src\System.Console.csproj", "{B1CC5163-12C4-4261-B92B-66CE664A8DC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Console.Tests", "System.Console\tests\System.Console.Tests.csproj", "{96F25E0E-2F29-4B71-A86C-7E6B5E938FDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Common", "System.Data.Common\ref\System.Data.Common.csproj", "{AB6EF7B9-628C-485C-AE35-D7169B597E01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Common", "System.Data.Common\src\System.Data.Common.csproj", "{16680639-340A-4286-B45A-1F93ED8613DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Common.Tests", "System.Data.Common\tests\System.Data.Common.Tests.csproj", "{319709A9-B223-48EB-AD01-93FB7D86D62C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.DataSetExtensions", "System.Data.DataSetExtensions\ref\System.Data.DataSetExtensions.csproj", "{7DB41B61-6184-4260-A0E4-7EF0EE277C2F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.DataSetExtensions", "System.Data.DataSetExtensions\src\System.Data.DataSetExtensions.csproj", "{C50E881E-68F4-4770-B6B3-06AE7FE8B79F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.DataSetExtensions.Tests", "System.Data.DataSetExtensions\tests\System.Data.DataSetExtensions.Tests.csproj", "{F6542C7B-45D2-4CF5-BDA6-242E76109FB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Odbc", "System.Data.Odbc\ref\System.Data.Odbc.csproj", "{32C3980D-0645-4F08-A524-A9F1C3C76990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Odbc", "System.Data.Odbc\src\System.Data.Odbc.csproj", "{15487791-134E-4114-98D2-C323A91AA814}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.Odbc.Tests", "System.Data.Odbc\tests\System.Data.Odbc.Tests.csproj", "{3F5EF64D-98C0-46D5-8518-C9C75F068B3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.SqlClient", "System.Data.SqlClient\ref\System.Data.SqlClient.csproj", "{B1350BFE-EEF9-4F2D-B954-886FB6D80EF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.SqlClient", "System.Data.SqlClient\src\System.Data.SqlClient.csproj", "{FB9C73D4-2587-4E96-A6ED-599624AD1B55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Contracts", "System.Diagnostics.Contracts\ref\System.Diagnostics.Contracts.csproj", "{4839E3F9-757C-4B0D-95E2-89C19D654530}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Contracts", "System.Diagnostics.Contracts\src\System.Diagnostics.Contracts.csproj", "{9BE27775-E29F-4080-B649-C56DF6938B0B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Contracts.Tests", "System.Diagnostics.Contracts\tests\System.Diagnostics.Contracts.Tests.csproj", "{3EE227BE-886E-4B28-BF97-A6BDE6FA6ECE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Debug", "System.Diagnostics.Debug\ref\System.Diagnostics.Debug.csproj", "{9B404F27-E781-4E47-8AAE-9A0606BAA09D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Debug", "System.Diagnostics.Debug\src\System.Diagnostics.Debug.csproj", "{446F551E-FBA0-44C6-AB78-772A21EF11A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Debug.Tests", "System.Diagnostics.Debug\tests\System.Diagnostics.Debug.Tests.csproj", "{EFD1292D-866B-409D-A211-F3C6D7E45641}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.DiagnosticSource", "System.Diagnostics.DiagnosticSource\ref\System.Diagnostics.DiagnosticSource.csproj", "{CA9F2908-857D-48F9-877A-64EA79F5E743}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.DiagnosticSource", "System.Diagnostics.DiagnosticSource\src\System.Diagnostics.DiagnosticSource.csproj", "{62B00258-7AC5-4AD8-8D54-DC5F5398AA7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.DiagnosticSource.Tests", "System.Diagnostics.DiagnosticSource\tests\System.Diagnostics.DiagnosticSource.Tests.csproj", "{4C29EBAE-273D-4A50-AAC1-3479BD7F6495}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.EventLog", "System.Diagnostics.EventLog\ref\System.Diagnostics.EventLog.csproj", "{2AD8CBFF-2742-474A-B04D-A77BF78EF14A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.EventLog", "System.Diagnostics.EventLog\src\System.Diagnostics.EventLog.csproj", "{EC7C2705-5CD4-43A1-AC86-B4C992EB1403}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.EventLog.Tests", "System.Diagnostics.EventLog\tests\System.Diagnostics.EventLog.Tests.csproj", "{21A66EB8-73FE-44FB-8B98-5FAF915B7F25}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.FileVersionInfo", "System.Diagnostics.FileVersionInfo\ref\System.Diagnostics.FileVersionInfo.csproj", "{5BB2D358-A468-400C-8BE2-3702F7E3248A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.FileVersionInfo", "System.Diagnostics.FileVersionInfo\src\System.Diagnostics.FileVersionInfo.csproj", "{41C661B4-883E-40AA-AC73-44EC348F2C40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.PerformanceCounter", "System.Diagnostics.PerformanceCounter\ref\System.Diagnostics.PerformanceCounter.csproj", "{944EDBB9-BAD3-4195-BC07-4881347B84D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.PerformanceCounter", "System.Diagnostics.PerformanceCounter\src\System.Diagnostics.PerformanceCounter.csproj", "{80D5B160-316E-41F4-8D3A-6B9243E2D625}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.PerformanceCounter.Tests", "System.Diagnostics.PerformanceCounter\tests\System.Diagnostics.PerformanceCounter.Tests.csproj", "{2FD84F04-ADBC-4A94-BF60-2677BF794F72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Process", "System.Diagnostics.Process\ref\System.Diagnostics.Process.csproj", "{07F46BCE-1723-48DA-8814-B7C7A6FFC0AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Process", "System.Diagnostics.Process\src\System.Diagnostics.Process.csproj", "{89779534-DCB9-40A7-82AA-B258074C4F02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Process.Tests", "System.Diagnostics.Process\tests\System.Diagnostics.Process.Tests.csproj", "{21B5977D-58DD-429D-A345-0D58D87D3EDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.StackTrace", "System.Diagnostics.StackTrace\ref\System.Diagnostics.StackTrace.csproj", "{1EE36FA4-8F21-4238-BB86-C9AA445F40F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.StackTrace", "System.Diagnostics.StackTrace\src\System.Diagnostics.StackTrace.csproj", "{CAC4BBC6-AD3F-420C-8521-4BBAD4ADEE2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.StackTrace.Tests", "System.Diagnostics.StackTrace\tests\System.Diagnostics.StackTrace.Tests.csproj", "{70874164-F128-41D7-90DE-2916636453DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TextWriterTraceListener", "System.Diagnostics.TextWriterTraceListener\ref\System.Diagnostics.TextWriterTraceListener.csproj", "{1EFF3F22-0722-4D3B-8C52-E77C5FA1EAEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TextWriterTraceListener", "System.Diagnostics.TextWriterTraceListener\src\System.Diagnostics.TextWriterTraceListener.csproj", "{4B0F29EA-3347-444D-A12C-0899D5894312}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TextWriterTraceListener.Tests", "System.Diagnostics.TextWriterTraceListener\tests\System.Diagnostics.TextWriterTraceListener.Tests.csproj", "{F73490D1-A081-4C81-B870-D1F878EA5FCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tools", "System.Diagnostics.Tools\ref\System.Diagnostics.Tools.csproj", "{60178B3F-2B6E-412E-ACE7-A1DCA6979496}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tools", "System.Diagnostics.Tools\src\System.Diagnostics.Tools.csproj", "{A980D2E7-3E20-4D80-8F69-1721D57627EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tools.Tests", "System.Diagnostics.Tools\tests\System.Diagnostics.Tools.Tests.csproj", "{8C81C646-B2CB-40F3-8C06-ADABD70B73B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TraceSource", "System.Diagnostics.TraceSource\ref\System.Diagnostics.TraceSource.csproj", "{952AF7D9-568E-4EF7-8302-10E423082C1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TraceSource", "System.Diagnostics.TraceSource\src\System.Diagnostics.TraceSource.csproj", "{105C18E6-2F53-4200-9FF2-9649CD75E4C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.TraceSource.Tests", "System.Diagnostics.TraceSource\tests\System.Diagnostics.TraceSource.Tests.csproj", "{02346D77-2EFF-4A2B-BCF9-915B4E655A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tracing", "System.Diagnostics.Tracing\ref\System.Diagnostics.Tracing.csproj", "{64317668-1570-48AE-A0A3-364B6EA369C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tracing", "System.Diagnostics.Tracing\src\System.Diagnostics.Tracing.csproj", "{4068DAF9-0B4D-440C-AFC3-E97839C669CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Tracing.Tests", "System.Diagnostics.Tracing\tests\System.Diagnostics.Tracing.Tests.csproj", "{5B033CC5-120B-487B-AE42-0641E1C9A409}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices", "System.DirectoryServices\ref\System.DirectoryServices.csproj", "{CC73B847-5A60-4456-949C-EB97CF2B8FB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices", "System.DirectoryServices\src\System.DirectoryServices.csproj", "{876E8220-4DC4-4A1A-BDAF-2FE3D3C747BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.Tests", "System.DirectoryServices\tests\System.DirectoryServices.Tests.csproj", "{BBF8C196-01DC-4979-964F-EB1810B92CDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.AccountManagement", "System.DirectoryServices.AccountManagement\ref\System.DirectoryServices.AccountManagement.csproj", "{C0E246C0-4CA4-4A56-88B8-72442B79E5DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.AccountManagement", "System.DirectoryServices.AccountManagement\src\System.DirectoryServices.AccountManagement.csproj", "{73769A45-0CBC-4538-9C2E-B42012A77285}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.AccountManagement.Tests", "System.DirectoryServices.AccountManagement\tests\System.DirectoryServices.AccountManagement.Tests.csproj", "{C631ECE4-AFF9-4F6A-97B7-BA0410DB2BE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.Protocols", "System.DirectoryServices.Protocols\ref\System.DirectoryServices.Protocols.csproj", "{47E0C5C5-9932-417A-BE72-29137090E512}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.Protocols", "System.DirectoryServices.Protocols\src\System.DirectoryServices.Protocols.csproj", "{66FB78E3-A1DB-4F10-BA47-38468A5559FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.DirectoryServices.Protocols.Tests", "System.DirectoryServices.Protocols\tests\System.DirectoryServices.Protocols.Tests.csproj", "{A5E7F1D7-89F9-4171-9F16-419E2FD39D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Common", "System.Drawing.Common\ref\System.Drawing.Common.csproj", "{0DB5F2DA-09FF-445A-BF01-154A0C23D610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Common", "System.Drawing.Common\src\System.Drawing.Common.csproj", "{04022590-0086-4235-BE10-5F68C7409EDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Common.Tests", "System.Drawing.Common\tests\System.Drawing.Common.Tests.csproj", "{04664CF7-BD89-456F-BF9C-D1AB48871C36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Primitives", "System.Drawing.Primitives\ref\System.Drawing.Primitives.csproj", "{B30DB17C-2C26-4F47-B3A4-FB35E34E68C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Primitives", "System.Drawing.Primitives\src\System.Drawing.Primitives.csproj", "{3A7114BF-58B4-4F8A-9D0A-85491D442AC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Primitives.Tests", "System.Drawing.Primitives\tests\System.Drawing.Primitives.Tests.csproj", "{20DDDEEB-1261-486D-9823-505C3C9EBA14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Dynamic.Runtime", "System.Dynamic.Runtime\ref\System.Dynamic.Runtime.csproj", "{5282EDB0-BAFE-485F-A992-CA03E20B46EC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Dynamic.Runtime", "System.Dynamic.Runtime\src\System.Dynamic.Runtime.csproj", "{74431BC2-4D7A-42AD-AEAC-3CAFAED8FEEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Dynamic.Runtime.Tests", "System.Dynamic.Runtime\tests\System.Dynamic.Runtime.Tests.csproj", "{6FB742CF-699B-4A8B-84C7-6BD7C13DBC3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization", "System.Globalization\ref\System.Globalization.csproj", "{6299BB5C-35A4-4EE3-B69F-05610BAB4D43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization", "System.Globalization\src\System.Globalization.csproj", "{1C60A4F4-2816-4776-B109-53CA0DFD549E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Tests", "System.Globalization\tests\System.Globalization.Tests.csproj", "{36B004D8-3CF6-451E-8216-21939CFEEE62}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Calendars", "System.Globalization.Calendars\ref\System.Globalization.Calendars.csproj", "{483CAA09-985B-4294-A233-B6241AFA9B17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Calendars", "System.Globalization.Calendars\src\System.Globalization.Calendars.csproj", "{7C1A9829-5E51-470E-84C1-7945F0B2B6D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Calendars.Tests", "System.Globalization.Calendars\tests\System.Globalization.Calendars.Tests.csproj", "{FEE31A54-8362-4F37-A0F6-979965049682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Extensions", "System.Globalization.Extensions\ref\System.Globalization.Extensions.csproj", "{206CC570-BAB2-432B-BB77-E5C24789CB8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Extensions", "System.Globalization.Extensions\src\System.Globalization.Extensions.csproj", "{E9FE1F90-1319-4E2D-B239-5ACAF4A2161B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.Extensions.Tests", "System.Globalization.Extensions\tests\System.Globalization.Extensions.Tests.csproj", "{E0BB7327-D984-4A97-B174-5B80812C8BDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO", "System.IO\ref\System.IO.csproj", "{82E6B419-315C-42C1-A7F7-CF5A38B59B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO", "System.IO\src\System.IO.csproj", "{39C5C791-D07F-4E23-8FC0-2B4B190825A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Tests", "System.IO\tests\System.IO.Tests.csproj", "{ECA41634-F620-455C-A6F2-799CDCC94E78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression", "System.IO.Compression\ref\System.IO.Compression.csproj", "{8F33529C-070F-46F7-82CC-9A7FB8A10AD2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression", "System.IO.Compression\src\System.IO.Compression.csproj", "{5B5EC036-8F32-4443-9E39-4A2303F45632}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.Tests", "System.IO.Compression\tests\System.IO.Compression.Tests.csproj", "{C8857A29-D69A-46C0-B4FC-0D9552754AC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.Brotli", "System.IO.Compression.Brotli\ref\System.IO.Compression.Brotli.csproj", "{A930043B-0037-4205-BAA4-AD291D1C0983}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.Brotli", "System.IO.Compression.Brotli\src\System.IO.Compression.Brotli.csproj", "{6B29FF2E-046E-443E-B5D8-6AB4B2BE31F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.Brotli.Tests", "System.IO.Compression.Brotli\tests\System.IO.Compression.Brotli.Tests.csproj", "{4D9E45C1-6FA4-4804-9D48-C8F86AC70807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.ZipFile", "System.IO.Compression.ZipFile\ref\System.IO.Compression.ZipFile.csproj", "{750994A4-A19C-4327-947C-C439FD698B46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.ZipFile", "System.IO.Compression.ZipFile\src\System.IO.Compression.ZipFile.csproj", "{243AA1CA-C3F1-45EC-B631-170976F88F5E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.ZipFile.Tests", "System.IO.Compression.ZipFile\tests\System.IO.Compression.ZipFile.Tests.csproj", "{CEFE727C-78B8-4970-9E32-86F51D61DBAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem", "System.IO.FileSystem\ref\System.IO.FileSystem.csproj", "{50D4F723-C068-4BB5-A551-18FAF1CFA4F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem", "System.IO.FileSystem\src\System.IO.FileSystem.csproj", "{94C39895-53FB-4094-9866-8430ACC20611}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Tests", "System.IO.FileSystem\tests\System.IO.FileSystem.Tests.csproj", "{A73968F6-ACBE-4067-BA42-B328568E69E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.AccessControl", "System.IO.FileSystem.AccessControl\ref\System.IO.FileSystem.AccessControl.csproj", "{2D9F23BC-9229-4F71-8F27-9C6C6074AF1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.AccessControl", "System.IO.FileSystem.AccessControl\src\System.IO.FileSystem.AccessControl.csproj", "{2F994CDE-2E14-40BD-9DD1-5A830DC00211}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.AccessControl.Tests", "System.IO.FileSystem.AccessControl\tests\System.IO.FileSystem.AccessControl.Tests.csproj", "{E94C95CD-1D24-4D6E-94B2-47D3BD7DCEF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.DriveInfo", "System.IO.FileSystem.DriveInfo\ref\System.IO.FileSystem.DriveInfo.csproj", "{32BB1C34-ABBC-4450-9A53-C2910161BD74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.DriveInfo", "System.IO.FileSystem.DriveInfo\src\System.IO.FileSystem.DriveInfo.csproj", "{64D4DC02-4ADE-47B0-AC6C-D5D8953B25CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.DriveInfo.Tests", "System.IO.FileSystem.DriveInfo\tests\System.IO.FileSystem.DriveInfo.Tests.csproj", "{5AD1805B-30BD-488B-BBBD-E750C674DF81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Primitives", "System.IO.FileSystem.Primitives\ref\System.IO.FileSystem.Primitives.csproj", "{97060D25-B05B-44F5-BBCD-BE29DCFE7B54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Primitives", "System.IO.FileSystem.Primitives\src\System.IO.FileSystem.Primitives.csproj", "{1D03B15D-FCA9-4C88-B93C-85FFD2128F36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Primitives.Tests", "System.IO.FileSystem.Primitives\tests\System.IO.FileSystem.Primitives.Tests.csproj", "{052AB0A6-EF8C-4F78-A694-AE1A790AF8A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Watcher", "System.IO.FileSystem.Watcher\ref\System.IO.FileSystem.Watcher.csproj", "{0CA7AAFD-1D94-42A7-A29A-53DDC4AD533E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Watcher", "System.IO.FileSystem.Watcher\src\System.IO.FileSystem.Watcher.csproj", "{ACE4F14B-45E9-4D94-A441-39F1E270AC82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.Watcher.Tests", "System.IO.FileSystem.Watcher\tests\System.IO.FileSystem.Watcher.Tests.csproj", "{8B3EDE14-81BE-4CEC-AFE4-D2FDA3040CE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.IsolatedStorage", "System.IO.IsolatedStorage\ref\System.IO.IsolatedStorage.csproj", "{ED594AAE-9EB3-4A24-9D65-58983CDB7372}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.IsolatedStorage", "System.IO.IsolatedStorage\src\System.IO.IsolatedStorage.csproj", "{144B8D6D-53B2-43B1-B563-C8E7BB2F36E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.IsolatedStorage.Tests", "System.IO.IsolatedStorage\tests\System.IO.IsolatedStorage.Tests.csproj", "{CC646CDF-316E-4AF4-B1BE-D7A4CF74BC1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.MemoryMappedFiles", "System.IO.MemoryMappedFiles\ref\System.IO.MemoryMappedFiles.csproj", "{8F830278-1C24-4DC8-9464-CDDA4C02F485}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.MemoryMappedFiles", "System.IO.MemoryMappedFiles\src\System.IO.MemoryMappedFiles.csproj", "{4CAC52DE-175E-4C1C-94F3-78424F97E0FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.MemoryMappedFiles.Tests", "System.IO.MemoryMappedFiles\tests\System.IO.MemoryMappedFiles.Tests.csproj", "{2077BBE6-B67F-4A49-BBEB-BC537837F4BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Packaging", "System.IO.Packaging\ref\System.IO.Packaging.csproj", "{C83B1763-542F-4B58-8B91-DA5FA74CFC34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Packaging", "System.IO.Packaging\src\System.IO.Packaging.csproj", "{299E6223-547E-48AB-80F8-93332829669C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Packaging.Tests", "System.IO.Packaging\tests\System.IO.Packaging.Tests.csproj", "{D0F3B2BE-F59E-4E6C-8401-B44842371D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipelines", "System.IO.Pipelines\ref\System.IO.Pipelines.csproj", "{DB308548-AA52-4617-9EC5-CE7220B30B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipelines", "System.IO.Pipelines\src\System.IO.Pipelines.csproj", "{35737249-2F80-43B8-8323-9DAA50F17733}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipelines.Tests", "System.IO.Pipelines\tests\System.IO.Pipelines.Tests.csproj", "{74A35F2D-B52A-43F6-9520-D9F50F3B7CE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes", "System.IO.Pipes\ref\System.IO.Pipes.csproj", "{12228225-2803-4831-A939-01469FA8F03C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes", "System.IO.Pipes\src\System.IO.Pipes.csproj", "{AB36ED5C-98C9-465F-8121-0FB954B5A975}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes.Tests", "System.IO.Pipes\tests\System.IO.Pipes.Tests.csproj", "{9FEA86BD-7219-4E2C-B582-4D2347FB2922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes.AccessControl", "System.IO.Pipes.AccessControl\ref\System.IO.Pipes.AccessControl.csproj", "{81E28C4B-12DB-487F-A001-AB69317D66A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes.AccessControl", "System.IO.Pipes.AccessControl\src\System.IO.Pipes.AccessControl.csproj", "{D44B7AF2-F756-4B90-BBFF-AADF578757E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes.AccessControl.Tests", "System.IO.Pipes.AccessControl\tests\System.IO.Pipes.AccessControl.Tests.csproj", "{A0117FE2-066A-448B-95FB-92FB69DC3D5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Ports", "System.IO.Ports\ref\System.IO.Ports.csproj", "{5D4C1DD9-7993-4456-9C81-766FD84E7937}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Ports", "System.IO.Ports\src\System.IO.Ports.csproj", "{9E766B3D-0B33-47BC-A4BE-1B085BC94038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Ports.Tests", "System.IO.Ports\tests\System.IO.Ports.Tests.csproj", "{88557348-4A50-4603-B39D-31E1F2F51271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.UnmanagedMemoryStream", "System.IO.UnmanagedMemoryStream\ref\System.IO.UnmanagedMemoryStream.csproj", "{4C747668-A082-4D4D-A164-209042157620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.UnmanagedMemoryStream", "System.IO.UnmanagedMemoryStream\src\System.IO.UnmanagedMemoryStream.csproj", "{958CEF16-ADC5-4224-A48A-2A490DBAF188}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.UnmanagedMemoryStream.Tests", "System.IO.UnmanagedMemoryStream\tests\System.IO.UnmanagedMemoryStream.Tests.csproj", "{2CE3BA71-47FB-436C-8865-FA8EB471D922}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Json", "System.Json\src\System.Json.csproj", "{AF77C6F6-60FB-4F49-B709-9ED0E657309A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Json.Tests", "System.Json\tests\System.Json.Tests.csproj", "{6FFBC035-8532-4BEA-B24C-79E3926313C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq", "System.Linq\ref\System.Linq.csproj", "{4DEEA878-BA04-4F49-8776-A3FEE2434D0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq", "System.Linq\src\System.Linq.csproj", "{37EDBBFE-DF19-47FF-8BED-0B3DD05EB562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Tests", "System.Linq\tests\System.Linq.Tests.csproj", "{8C023E95-C92E-478D-8B4B-F53F36B74649}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Expressions", "System.Linq.Expressions\ref\System.Linq.Expressions.csproj", "{144A2962-D6F1-44CD-9F3F-9B21370EB0AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Expressions", "System.Linq.Expressions\src\System.Linq.Expressions.csproj", "{5070905F-4CB7-4287-9C3F-F6219E1E68AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Expressions.Tests", "System.Linq.Expressions\tests\System.Linq.Expressions.Tests.csproj", "{0E0F444E-3889-43CD-A4DC-3A264C2774E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Parallel", "System.Linq.Parallel\ref\System.Linq.Parallel.csproj", "{A04CB4F3-3C8D-44BB-82A5-9B07E250E867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Parallel", "System.Linq.Parallel\src\System.Linq.Parallel.csproj", "{A31CB47C-FB83-41BA-9F36-3ACC0C3D35E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Parallel.Tests", "System.Linq.Parallel\tests\System.Linq.Parallel.Tests.csproj", "{4212414F-8234-40AC-A199-418734AC4F04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Queryable", "System.Linq.Queryable\ref\System.Linq.Queryable.csproj", "{A243FD92-3B03-4AFC-90FD-23D9FFE65584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Queryable", "System.Linq.Queryable\src\System.Linq.Queryable.csproj", "{30F7BB1A-6334-4781-9F4C-B61F21F0E620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Queryable.Tests", "System.Linq.Queryable\tests\System.Linq.Queryable.Tests.csproj", "{1B9F315C-3832-4FCF-BD7E-D62EF6426E76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Management", "System.Management\ref\System.Management.csproj", "{5A9CF7E8-9B56-497D-BC37-21B930005225}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Management", "System.Management\src\System.Management.csproj", "{ACC1BEB8-648B-4729-B3C7-749605FF8FBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Management.Tests", "System.Management\tests\System.Management.Tests.csproj", "{97C32CDD-B515-477C-8069-C61155441CEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Memory", "System.Memory\ref\System.Memory.csproj", "{F1994B1E-D209-47F4-9B02-4EDE7D2241B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Memory", "System.Memory\src\System.Memory.csproj", "{3C2D6C15-35D5-477E-9F1E-E4A7CC5AAA15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Memory.Tests", "System.Memory\tests\System.Memory.Tests.csproj", "{E84EA64A-01A4-41F0-99BB-E8CE93437397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http", "System.Net.Http\ref\System.Net.Http.csproj", "{8E059820-D275-4D27-8CCC-3D481141DF93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http", "System.Net.Http\src\System.Net.Http.csproj", "{A8272E17-DBBC-4081-89C8-1365C26EB05B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.Rtc", "System.Net.Http.Rtc\ref\System.Net.Http.Rtc.csproj", "{5249BDED-9694-428A-96C4-A716113C4ACB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.Rtc", "System.Net.Http.Rtc\src\System.Net.Http.Rtc.csproj", "{CE3694F9-93E5-439C-A880-EC1551B7F109}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.WinHttpHandler", "System.Net.Http.WinHttpHandler\ref\System.Net.Http.WinHttpHandler.csproj", "{D6327B41-609C-44BA-A6CA-6531CF3265C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.WinHttpHandler", "System.Net.Http.WinHttpHandler\src\System.Net.Http.WinHttpHandler.csproj", "{2C66A39E-52C1-4EB2-AA13-994D3833F082}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.HttpListener", "System.Net.HttpListener\ref\System.Net.HttpListener.csproj", "{1758C6F5-79A3-44F9-BFA4-5643D809EDB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.HttpListener", "System.Net.HttpListener\src\System.Net.HttpListener.csproj", "{900AEE96-AE17-43AA-9534-18569F6CDCC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.HttpListener.Tests", "System.Net.HttpListener\tests\System.Net.HttpListener.Tests.csproj", "{AD426B9E-E39D-4B93-9F90-DE9E932FDD05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Mail", "System.Net.Mail\ref\System.Net.Mail.csproj", "{CF2AE992-B00B-477B-ABB2-DB277F5E82F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Mail", "System.Net.Mail\src\System.Net.Mail.csproj", "{C40865A8-B732-49F1-B6AE-D1F419110607}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NameResolution", "System.Net.NameResolution\ref\System.Net.NameResolution.csproj", "{5E38FB8F-C329-486A-B8E9-DB080FCEBC2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NameResolution", "System.Net.NameResolution\src\System.Net.NameResolution.csproj", "{B6E3A8B6-0482-4944-99AA-115FFA00E044}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NetworkInformation", "System.Net.NetworkInformation\ref\System.Net.NetworkInformation.csproj", "{3F740324-D685-496B-99F9-375501572226}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NetworkInformation", "System.Net.NetworkInformation\src\System.Net.NetworkInformation.csproj", "{7DFED93E-83EF-4C3F-AA2E-05DB943965B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Ping", "System.Net.Ping\ref\System.Net.Ping.csproj", "{5272D8D1-199E-4C4A-9460-CBC7F333FC19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Ping", "System.Net.Ping\src\System.Net.Ping.csproj", "{6022AE3A-5605-485F-875D-DF886A8B2660}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives", "System.Net.Primitives\ref\System.Net.Primitives.csproj", "{EBB622D2-87E5-4612-820F-6773E3F564B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives", "System.Net.Primitives\src\System.Net.Primitives.csproj", "{48C708E8-C7B2-422C-8800-70BF293EE6C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Requests", "System.Net.Requests\ref\System.Net.Requests.csproj", "{2202CE6C-79B3-4FE4-A5D6-063C6CC63628}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Requests", "System.Net.Requests\src\System.Net.Requests.csproj", "{25DB8402-29CE-4C5C-8A31-4A3452647698}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Requests.Tests", "System.Net.Requests\tests\System.Net.Requests.Tests.csproj", "{C87C2155-B78C-4C24-9BA9-59BEE939BC88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Security", "System.Net.Security\ref\System.Net.Security.csproj", "{ED9BF0AB-4A02-4CA0-B8C1-A877A7EF6E06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Security", "System.Net.Security\src\System.Net.Security.csproj", "{49D0E161-5111-4A2E-A830-38C299A5D86F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.ServicePoint", "System.Net.ServicePoint\ref\System.Net.ServicePoint.csproj", "{C7298997-A0C0-42C7-ADC1-38A7FA8487D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.ServicePoint", "System.Net.ServicePoint\src\System.Net.ServicePoint.csproj", "{2CFCCD50-0F8C-43F5-B629-0D119419FC63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.ServicePoint.Tests", "System.Net.ServicePoint\tests\System.Net.ServicePoint.Tests.csproj", "{69D65802-9152-45FE-9235-CFD879921C8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Sockets", "System.Net.Sockets\ref\System.Net.Sockets.csproj", "{8A2D3AC4-2B59-4415-BBF0-E8D06967CC38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Sockets", "System.Net.Sockets\src\System.Net.Sockets.csproj", "{6577AF7B-2E08-4CB7-BA76-DFC31122F1EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebClient", "System.Net.WebClient\ref\System.Net.WebClient.csproj", "{68B12D21-D634-4B58-B8F2-EAD7A4757AA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebClient", "System.Net.WebClient\src\System.Net.WebClient.csproj", "{CECDF3BC-F6A6-4839-B065-065B46A0D250}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebClient.Tests", "System.Net.WebClient\tests\System.Net.WebClient.Tests.csproj", "{EA737F20-8F15-487D-B0A4-C6F2205176EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebHeaderCollection", "System.Net.WebHeaderCollection\ref\System.Net.WebHeaderCollection.csproj", "{7449D630-0170-450F-A168-25BA2A2ADAF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebHeaderCollection", "System.Net.WebHeaderCollection\src\System.Net.WebHeaderCollection.csproj", "{70B77D96-4C5B-4CB9-A82D-964EBFED67FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebHeaderCollection.Tests", "System.Net.WebHeaderCollection\tests\System.Net.WebHeaderCollection.Tests.csproj", "{1B990642-9BB6-4573-8E25-AC66CB4BA2E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebProxy", "System.Net.WebProxy\ref\System.Net.WebProxy.csproj", "{FEF04566-FC3C-49C1-AB22-1F2448211BEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebProxy", "System.Net.WebProxy\src\System.Net.WebProxy.csproj", "{78F4194F-795C-4F64-BBE0-959887E831C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebProxy.Tests", "System.Net.WebProxy\tests\System.Net.WebProxy.Tests.csproj", "{15C5F586-1EC3-4771-AEFF-1D29A729DD2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets", "System.Net.WebSockets\ref\System.Net.WebSockets.csproj", "{8BF6B465-F6B9-4F07-A1E1-044CE1516727}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets", "System.Net.WebSockets\src\System.Net.WebSockets.csproj", "{3D0BCFF0-55AD-46F4-AC10-0C004BA9A6F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.Tests", "System.Net.WebSockets\tests\System.Net.WebSockets.Tests.csproj", "{41FBFB98-1D05-4D87-92D1-5DC70ED98C6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.Client", "System.Net.WebSockets.Client\ref\System.Net.WebSockets.Client.csproj", "{209AC66E-7785-4C77-80C6-DBCC5C085A87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.Client", "System.Net.WebSockets.Client\src\System.Net.WebSockets.Client.csproj", "{E88C738C-F187-4B06-99AD-8C09E6322653}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.Client.Tests", "System.Net.WebSockets.Client\tests\System.Net.WebSockets.Client.Tests.csproj", "{5F41D181-E5F1-411C-AA31-3F826A417257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.WebSocketProtocol", "System.Net.WebSockets.WebSocketProtocol\ref\System.Net.WebSockets.WebSocketProtocol.csproj", "{40024F04-7A9F-413F-92B4-1326AEF59FDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.WebSocketProtocol", "System.Net.WebSockets.WebSocketProtocol\src\System.Net.WebSockets.WebSocketProtocol.csproj", "{2A09BAFF-B00D-4D92-B9C9-EBFFEF5ECB29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.WebSockets.WebSocketProtocol.Tests", "System.Net.WebSockets.WebSocketProtocol\tests\System.Net.WebSockets.WebSocketProtocol.Tests.csproj", "{7375466D-FFB9-4E5D-A66C-589D41043919}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Tensors", "System.Numerics.Tensors\ref\System.Numerics.Tensors.csproj", "{E665E085-C8E6-4A57-85F6-13888E577259}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Tensors", "System.Numerics.Tensors\src\System.Numerics.Tensors.csproj", "{3A9926C9-67B9-4955-B867-9456C5A65CED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Tensors.Tests", "System.Numerics.Tensors\tests\System.Numerics.Tensors.Tests.csproj", "{D7762BB5-1F91-43FC-AA46-34B7F59CE6B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Vectors", "System.Numerics.Vectors\ref\System.Numerics.Vectors.csproj", "{2D992BC0-E4C6-460D-8533-73E06E4C361D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Vectors", "System.Numerics.Vectors\src\System.Numerics.Vectors.csproj", "{CC56E47D-BF60-4BD0-BFB7-D34846DCBFD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Vectors.Tests", "System.Numerics.Vectors\tests\System.Numerics.Vectors.Tests.csproj", "{F72CAC6D-68F2-4761-9200-2F38B364B079}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Vectors.WindowsRuntime", "System.Numerics.Vectors.WindowsRuntime\src\System.Numerics.Vectors.WindowsRuntime.csproj", "{2A8A7563-2921-49CE-BC45-7D24ACDAD023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ObjectModel", "System.ObjectModel\ref\System.ObjectModel.csproj", "{DC88AF63-29C6-4EA9-83E1-4022A1F61FFB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ObjectModel", "System.ObjectModel\src\System.ObjectModel.csproj", "{1CA35168-D62E-4053-8EAB-4B172B7492DC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ObjectModel.Tests", "System.ObjectModel\tests\System.ObjectModel.Tests.csproj", "{FB0C89EA-BAFB-4BDE-87DE-B35F9024C12C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.DataContractSerialization", "System.Private.DataContractSerialization\src\System.Private.DataContractSerialization.csproj", "{9F4DF10F-91B7-440D-9F3F-E8D111ED094A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Reflection.Metadata.Ecma335", "System.Private.Reflection.Metadata.Ecma335\src\System.Private.Reflection.Metadata.Ecma335.csproj", "{E3578248-B34F-482C-A249-8AE5A3448F60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Uri", "System.Private.Uri\src\System.Private.Uri.csproj", "{EAE7120E-E6BF-403E-9FD6-499682FFC332}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Xml", "System.Private.Xml\src\System.Private.Xml.csproj", "{A39B4DAB-16D2-4F2E-A504-BA665C301008}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Xml.Linq", "System.Private.Xml.Linq\src\System.Private.Xml.Linq.csproj", "{F1CF5EE4-82A8-48EA-A165-DAF69505834C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection", "System.Reflection\ref\System.Reflection.csproj", "{909C0FD9-50BA-4F3B-9841-B64E9BFACE61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection", "System.Reflection\src\System.Reflection.csproj", "{FCD0CD55-8E19-463D-B13A-E922A3B33504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests", "System.Reflection\tests\System.Reflection.Tests.csproj", "{8F9949C4-0C5F-41C6-8F82-4867F4134800}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Context", "System.Reflection.Context\ref\System.Reflection.Context.csproj", "{08DD4FBE-2DD4-4217-8CA0-BEBD4EBB3B74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Context", "System.Reflection.Context\src\System.Reflection.Context.csproj", "{A2BA47B9-1741-4FA3-8C3D-E8EEC7A00A60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Context.Tests", "System.Reflection.Context\tests\System.Reflection.Context.Tests.csproj", "{AFAABA92-E680-406B-92AD-F66DE54C3D04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.DispatchProxy", "System.Reflection.DispatchProxy\ref\System.Reflection.DispatchProxy.csproj", "{B205189B-1340-415C-8C58-0F987423D6EA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.DispatchProxy", "System.Reflection.DispatchProxy\src\System.Reflection.DispatchProxy.csproj", "{1F355305-DD5F-4EF7-9A32-F9ED29929EED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.DispatchProxy.Tests", "System.Reflection.DispatchProxy\tests\System.Reflection.DispatchProxy.Tests.csproj", "{1DFBF039-EEBB-4C2C-9B1A-BF717BFA7B9F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit", "System.Reflection.Emit\ref\System.Reflection.Emit.csproj", "{422354DC-EBDA-4158-8446-682594660682}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit", "System.Reflection.Emit\src\System.Reflection.Emit.csproj", "{19D670F6-6029-43DB-9F43-CB291EB358F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.Tests", "System.Reflection.Emit\tests\System.Reflection.Emit.Tests.csproj", "{FC6D4EBB-BAC5-44D0-BECF-3AA65D1719D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.ILGeneration", "System.Reflection.Emit.ILGeneration\ref\System.Reflection.Emit.ILGeneration.csproj", "{FEF294E2-5809-412B-8C3D-0E0A646B8AAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.ILGeneration", "System.Reflection.Emit.ILGeneration\src\System.Reflection.Emit.ILGeneration.csproj", "{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.ILGeneration.Tests", "System.Reflection.Emit.ILGeneration\tests\System.Reflection.Emit.ILGeneration.Tests.csproj", "{92738560-2497-41CA-9969-8E5C05691270}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.Lightweight", "System.Reflection.Emit.Lightweight\ref\System.Reflection.Emit.Lightweight.csproj", "{1FE515C1-F0F9-4C78-8338-169C13D9F642}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.Lightweight", "System.Reflection.Emit.Lightweight\src\System.Reflection.Emit.Lightweight.csproj", "{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Emit.Lightweight.Tests", "System.Reflection.Emit.Lightweight\tests\System.Reflection.Emit.Lightweight.Tests.csproj", "{D47A0154-FA0F-461C-A2D3-8EAF57D9A227}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Extensions", "System.Reflection.Extensions\ref\System.Reflection.Extensions.csproj", "{2AC0A43F-92DC-439B-84BD-D7872E6FE7F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Extensions", "System.Reflection.Extensions\src\System.Reflection.Extensions.csproj", "{489F1D05-B5FF-42F6-93AD-B01C2CE76F60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Extensions.Tests", "System.Reflection.Extensions\tests\System.Reflection.Extensions.Tests.csproj", "{5A8C9894-FC01-4BBB-AFF4-54CA1D01DDFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Metadata", "System.Reflection.Metadata\ref\System.Reflection.Metadata.csproj", "{A4E2AE51-B024-420E-9991-6708A6AE7F7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Metadata", "System.Reflection.Metadata\src\System.Reflection.Metadata.csproj", "{FB3B28A2-F333-482E-9128-F1B3ACC92C1C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Metadata.Tests", "System.Reflection.Metadata\tests\System.Reflection.Metadata.Tests.csproj", "{F4CE1E1D-410E-4FFF-876B-E65C710DCBED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.MetadataLoadContext", "System.Reflection.MetadataLoadContext\ref\System.Reflection.MetadataLoadContext.csproj", "{10CCCE2C-5914-4024-900E-06317CD01327}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.MetadataLoadContext", "System.Reflection.MetadataLoadContext\src\System.Reflection.MetadataLoadContext.csproj", "{DBB18588-DD89-4F41-9852-484FD4726F0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.MetadataLoadContext.Tests", "System.Reflection.MetadataLoadContext\tests\System.Reflection.MetadataLoadContext.Tests.csproj", "{B5F4293C-9262-4230-A4EB-316AE24B6720}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Primitives", "System.Reflection.Primitives\ref\System.Reflection.Primitives.csproj", "{BCAAFAE7-D330-4590-B3BC-DF8E33AE2C98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Primitives", "System.Reflection.Primitives\src\System.Reflection.Primitives.csproj", "{510B144F-C949-40DE-B0F3-FF4D39CE55C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.TypeExtensions", "System.Reflection.TypeExtensions\ref\System.Reflection.TypeExtensions.csproj", "{EEDF441C-0975-40E6-85CE-A006F323B79B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.TypeExtensions", "System.Reflection.TypeExtensions\src\System.Reflection.TypeExtensions.csproj", "{2A19B3B0-1046-4B1F-B9B1-C7997C58CCB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.TypeExtensions.Tests", "System.Reflection.TypeExtensions\tests\System.Reflection.TypeExtensions.Tests.csproj", "{7A6F3A4B-2AE2-47F8-B334-8AF8001918EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Reader", "System.Resources.Reader\ref\System.Resources.Reader.csproj", "{4A41F2B5-9FB2-45F1-B0AF-E06D379A1303}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Reader", "System.Resources.Reader\src\System.Resources.Reader.csproj", "{B506FC5F-CD65-46DE-A08C-A0772C4D8746}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Reader.Tests", "System.Resources.Reader\tests\System.Resources.Reader.Tests.csproj", "{64AC03BD-5157-4885-9EA1-2E95941DF9CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.ResourceManager", "System.Resources.ResourceManager\ref\System.Resources.ResourceManager.csproj", "{E2DB3739-A19C-446C-BFBB-308339DC9555}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.ResourceManager", "System.Resources.ResourceManager\src\System.Resources.ResourceManager.csproj", "{B494D4EC-7A87-4D5A-B774-D93F3030E5BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.ResourceManager.Tests", "System.Resources.ResourceManager\tests\System.Resources.ResourceManager.Tests.csproj", "{E7DD9469-242D-4F10-B5FA-F506C016699C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Writer", "System.Resources.Writer\ref\System.Resources.Writer.csproj", "{3B548855-CBE3-4299-A411-E6276060BD06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Writer", "System.Resources.Writer\src\System.Resources.Writer.csproj", "{42F3739E-ADF2-4549-86F0-41977F12348A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Resources.Writer.Tests", "System.Resources.Writer\tests\System.Resources.Writer.Tests.csproj", "{0A18C9E8-DCAD-40D4-B44A-4FCAFF9D4848}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime", "System.Runtime\ref\System.Runtime.csproj", "{9E3A8AB4-AEDF-4F9E-9944-54A49C979600}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime", "System.Runtime\src\System.Runtime.csproj", "{C8977AEA-1281-4A60-9141-07B3FB1B243B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Tests", "System.Runtime\tests\System.Runtime.Tests.csproj", "{2537D064-60F0-4EE9-87AC-E2F6DE0FD3C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Caching", "System.Runtime.Caching\ref\System.Runtime.Caching.csproj", "{D6D5AFB6-C1A7-491D-885E-7A0E162945AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Caching", "System.Runtime.Caching\src\System.Runtime.Caching.csproj", "{93AC408C-FB83-4470-9112-71050CCE91EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Caching.Tests", "System.Runtime.Caching\tests\System.Runtime.Caching.Tests.csproj", "{F2564C06-3E77-4E6D-A301-40B76C02D8DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.CompilerServices.Unsafe", "System.Runtime.CompilerServices.Unsafe\ref\System.Runtime.CompilerServices.Unsafe.csproj", "{F7B3D318-12EC-4878-9560-A5389F6A96AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.CompilerServices.Unsafe.Tests", "System.Runtime.CompilerServices.Unsafe\tests\System.Runtime.CompilerServices.Unsafe.Tests.csproj", "{D247DC16-2258-41A1-9326-F5D96B69ED15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.CompilerServices.VisualC", "System.Runtime.CompilerServices.VisualC\ref\System.Runtime.CompilerServices.VisualC.csproj", "{012CFA57-723E-4A68-9CD3-27EE5DB7BA21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.CompilerServices.VisualC", "System.Runtime.CompilerServices.VisualC\src\System.Runtime.CompilerServices.VisualC.csproj", "{D9BAA3FE-E461-46DA-9217-27441045CC44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.CompilerServices.VisualC.Tests", "System.Runtime.CompilerServices.VisualC\tests\System.Runtime.CompilerServices.VisualC.Tests.csproj", "{C8130323-C41E-42CA-B147-F91B490B7397}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Extensions", "System.Runtime.Extensions\ref\System.Runtime.Extensions.csproj", "{C2A8115B-EBAA-4735-8E44-6046B04BF063}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Extensions", "System.Runtime.Extensions\src\System.Runtime.Extensions.csproj", "{93DE60A4-A789-4BDC-A549-7A3CB340EB0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Extensions.Tests", "System.Runtime.Extensions\tests\System.Runtime.Extensions.Tests.csproj", "{63FD6A1E-8C4C-4DED-9EBD-DCF2E2365361}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Handles", "System.Runtime.Handles\ref\System.Runtime.Handles.csproj", "{E706C6C5-FFE5-45BF-A21E-8299BA2B9904}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Handles", "System.Runtime.Handles\src\System.Runtime.Handles.csproj", "{E7E61240-E190-4C09-B884-DD406C22FB37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Handles.Tests", "System.Runtime.Handles\tests\System.Runtime.Handles.Tests.csproj", "{DA7AFF6C-23A9-4A38-BB82-AD0D90D2BA87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices", "System.Runtime.InteropServices\ref\System.Runtime.InteropServices.csproj", "{865959B2-271F-423C-8BB2-B3EBECC0C0BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices", "System.Runtime.InteropServices\src\System.Runtime.InteropServices.csproj", "{57F79688-713A-471B-B30A-FFDBA8B1FE82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.Tests", "System.Runtime.InteropServices\tests\System.Runtime.InteropServices.Tests.csproj", "{75B7BA08-D9EC-481C-867A-8D16176BEC8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.RuntimeInformation", "System.Runtime.InteropServices.RuntimeInformation\ref\System.Runtime.InteropServices.RuntimeInformation.csproj", "{BDF49566-C782-4CAA-9A96-1D5B39B77391}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.RuntimeInformation", "System.Runtime.InteropServices.RuntimeInformation\src\System.Runtime.InteropServices.RuntimeInformation.csproj", "{86C33215-2BE7-45A8-971B-ED0BF9056E1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.RuntimeInformation.Tests", "System.Runtime.InteropServices.RuntimeInformation\tests\System.Runtime.InteropServices.RuntimeInformation.Tests.csproj", "{80182FB4-5746-41FD-A15D-ADEEA02E73B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.WindowsRuntime", "System.Runtime.InteropServices.WindowsRuntime\ref\System.Runtime.InteropServices.WindowsRuntime.csproj", "{789922F1-BC98-4FCD-B2EB-F11B35E63BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.WindowsRuntime", "System.Runtime.InteropServices.WindowsRuntime\src\System.Runtime.InteropServices.WindowsRuntime.csproj", "{BB5AD028-C968-4C56-A6AC-12DF6915F347}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.InteropServices.WindowsRuntime.Tests", "System.Runtime.InteropServices.WindowsRuntime\tests\System.Runtime.InteropServices.WindowsRuntime.Tests.csproj", "{2D1D2442-B227-4FCA-B5B3-92E9DBAA47FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Intrinsics", "System.Runtime.Intrinsics\ref\System.Runtime.Intrinsics.csproj", "{BF6B6500-5616-41D5-A806-91DCC6211579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Intrinsics", "System.Runtime.Intrinsics\src\System.Runtime.Intrinsics.csproj", "{C27D6897-5388-4645-96DD-1AAB0D9D4D5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader", "System.Runtime.Loader\ref\System.Runtime.Loader.csproj", "{86DC8DB1-1BE7-471A-999E-4FA6544BA92D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader", "System.Runtime.Loader\src\System.Runtime.Loader.csproj", "{0EF07E18-5A62-44D3-A2FC-E98176345038}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.Tests", "System.Runtime.Loader\tests\System.Runtime.Loader.Tests.csproj", "{E3AD214E-9D5F-4835-A005-C229F7A93D84}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Numerics", "System.Runtime.Numerics\ref\System.Runtime.Numerics.csproj", "{86964384-0030-49F2-8EC4-79D4188B1FE4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Numerics", "System.Runtime.Numerics\src\System.Runtime.Numerics.csproj", "{10C11B15-FE82-4C74-AA64-C769DBE1EDAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Numerics.Tests", "System.Runtime.Numerics\tests\System.Runtime.Numerics.Tests.csproj", "{AC4522C4-64B3-43F3-B3B1-A47E6AC03935}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Formatters", "System.Runtime.Serialization.Formatters\ref\System.Runtime.Serialization.Formatters.csproj", "{BB5AE1AB-EC41-48AB-92A7-AA62B5E33F27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Formatters", "System.Runtime.Serialization.Formatters\src\System.Runtime.Serialization.Formatters.csproj", "{CCC53A83-76E7-4DB4-A5EF-9A55CB000C0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Formatters.Tests", "System.Runtime.Serialization.Formatters\tests\System.Runtime.Serialization.Formatters.Tests.csproj", "{61A7B59C-53BF-43DA-81C4-7515C0353581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Json", "System.Runtime.Serialization.Json\ref\System.Runtime.Serialization.Json.csproj", "{4F19EF65-F955-4333-B67F-AC27B82766B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Json", "System.Runtime.Serialization.Json\src\System.Runtime.Serialization.Json.csproj", "{F5AA7BC9-2F66-4B66-8F42-ECE340A3342B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Json.Tests", "System.Runtime.Serialization.Json\tests\System.Runtime.Serialization.Json.Tests.csproj", "{34A75D45-E818-431F-AA1D-6AB6FFD70B65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Primitives", "System.Runtime.Serialization.Primitives\ref\System.Runtime.Serialization.Primitives.csproj", "{03BCDF8A-4846-4B6E-8623-18513116F98C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Primitives", "System.Runtime.Serialization.Primitives\src\System.Runtime.Serialization.Primitives.csproj", "{5D1A084C-5E9A-47C9-9CB1-AE69563D87FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Primitives.Tests", "System.Runtime.Serialization.Primitives\tests\System.Runtime.Serialization.Primitives.Tests.csproj", "{1DF43B8C-AC1F-4E0F-8A58-7856270B86C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml", "System.Runtime.Serialization.Xml\ref\System.Runtime.Serialization.Xml.csproj", "{A58563FE-4437-47F4-BA30-FEF1366C8738}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml", "System.Runtime.Serialization.Xml\src\System.Runtime.Serialization.Xml.csproj", "{81F020D9-B5A7-4128-A8B7-FB9BD16F23ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml.Tests", "System.Runtime.Serialization.Xml\tests\System.Runtime.Serialization.Xml.Tests.csproj", "{81AC6799-392A-4223-A838-01021ADD7771}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime", "System.Runtime.WindowsRuntime\ref\System.Runtime.WindowsRuntime.csproj", "{666FD528-0CD6-40EB-B086-7DC064964752}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime", "System.Runtime.WindowsRuntime\src\System.Runtime.WindowsRuntime.csproj", "{17965B6B-FD1A-4CD7-95A2-3A71C3109C6A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime.Tests", "System.Runtime.WindowsRuntime\tests\System.Runtime.WindowsRuntime.Tests.csproj", "{D0576EBF-B5AC-4AA7-81CD-0A6EF78FE908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime.UI.Xaml", "System.Runtime.WindowsRuntime.UI.Xaml\ref\System.Runtime.WindowsRuntime.UI.Xaml.csproj", "{1F07011E-1439-472D-891F-B08A32BA34EF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime.UI.Xaml", "System.Runtime.WindowsRuntime.UI.Xaml\src\System.Runtime.WindowsRuntime.UI.Xaml.csproj", "{631257AC-D14F-4904-AFD0-955C39A1579F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.WindowsRuntime.UI.Xaml.Tests", "System.Runtime.WindowsRuntime.UI.Xaml\tests\System.Runtime.WindowsRuntime.UI.Xaml.Tests.csproj", "{44041FA6-1608-4400-AF72-A148A029CEEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.AccessControl", "System.Security.AccessControl\ref\System.Security.AccessControl.csproj", "{F3D521A8-DB2D-46D2-8ADF-FFB49121735C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.AccessControl", "System.Security.AccessControl\src\System.Security.AccessControl.csproj", "{836DB503-F1E4-48D1-B95E-BB1CCD848D60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.AccessControl.Tests", "System.Security.AccessControl\tests\System.Security.AccessControl.Tests.csproj", "{CF62CDBB-C812-4E62-8719-48FF969BA4BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Claims", "System.Security.Claims\ref\System.Security.Claims.csproj", "{7B6A9754-27AD-408F-9E3F-B92A34D2DCD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Claims", "System.Security.Claims\src\System.Security.Claims.csproj", "{C5779542-873E-4916-AFF8-5B23BF6B216B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Claims.Tests", "System.Security.Claims\tests\System.Security.Claims.Tests.csproj", "{DFAEAB02-7D5C-480E-93B6-1545AE11DB3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Algorithms", "System.Security.Cryptography.Algorithms\ref\System.Security.Cryptography.Algorithms.csproj", "{6B1BDAA9-D724-4358-83D6-B7D2CC5A04D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Algorithms", "System.Security.Cryptography.Algorithms\src\System.Security.Cryptography.Algorithms.csproj", "{CD1A8694-4366-493D-B085-897EE8233046}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Algorithms.Tests", "System.Security.Cryptography.Algorithms\tests\System.Security.Cryptography.Algorithms.Tests.csproj", "{65E25E3A-407C-48F4-B1A2-CAE2A661184D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Cng", "System.Security.Cryptography.Cng\ref\System.Security.Cryptography.Cng.csproj", "{AE4A3F52-D9E9-450B-8992-44E593F0F7B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Cng", "System.Security.Cryptography.Cng\src\System.Security.Cryptography.Cng.csproj", "{8BDC65E7-EED3-4967-8243-24B97299DF11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Cng.Tests", "System.Security.Cryptography.Cng\tests\System.Security.Cryptography.Cng.Tests.csproj", "{F2D385B2-F3FF-470B-88A0-0D058C5E8D0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Csp", "System.Security.Cryptography.Csp\ref\System.Security.Cryptography.Csp.csproj", "{12631E32-6C59-4A8C-BB97-44A3E938E48D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Csp", "System.Security.Cryptography.Csp\src\System.Security.Cryptography.Csp.csproj", "{6F379B8A-5CFF-4DB1-9841-A8C3A02A59A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Csp.Tests", "System.Security.Cryptography.Csp\tests\System.Security.Cryptography.Csp.Tests.csproj", "{473D1C6F-BB8C-4C19-B348-717882826DE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Encoding", "System.Security.Cryptography.Encoding\ref\System.Security.Cryptography.Encoding.csproj", "{55005F89-29EB-4E18-9E36-E0DE7B35E869}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Encoding", "System.Security.Cryptography.Encoding\src\System.Security.Cryptography.Encoding.csproj", "{6292A839-2836-4005-BBB3-E508274E4507}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Encoding.Tests", "System.Security.Cryptography.Encoding\tests\System.Security.Cryptography.Encoding.Tests.csproj", "{70E93863-059F-408E-82DE-E19ED7438C35}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.OpenSsl", "System.Security.Cryptography.OpenSsl\ref\System.Security.Cryptography.OpenSsl.csproj", "{04DF0C94-9714-42EF-B3BB-9A01BBC90D87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.OpenSsl", "System.Security.Cryptography.OpenSsl\src\System.Security.Cryptography.OpenSsl.csproj", "{B6F18F14-C8AD-4120-86A2-D30BE7D26C19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.OpenSsl.Tests", "System.Security.Cryptography.OpenSsl\tests\System.Security.Cryptography.OpenSsl.Tests.csproj", "{46390A47-F4C4-42FF-A9DF-A96B5F9776A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Pkcs", "System.Security.Cryptography.Pkcs\ref\System.Security.Cryptography.Pkcs.csproj", "{B6ACD572-D5B8-4073-84DD-C113DEBC5E3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Pkcs", "System.Security.Cryptography.Pkcs\src\System.Security.Cryptography.Pkcs.csproj", "{3A8E1ADA-5636-491C-9CE9-A9247525E9F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Pkcs.Tests", "System.Security.Cryptography.Pkcs\tests\System.Security.Cryptography.Pkcs.Tests.csproj", "{0532AA23-7EA2-4377-993A-0BFDDA5874DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Primitives", "System.Security.Cryptography.Primitives\ref\System.Security.Cryptography.Primitives.csproj", "{ADC9EDE2-1DDF-4C22-ABF7-A92C7436D17F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Primitives", "System.Security.Cryptography.Primitives\src\System.Security.Cryptography.Primitives.csproj", "{4E76AF7A-5E45-44BA-AB57-79CC59357D30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Primitives.Tests", "System.Security.Cryptography.Primitives\tests\System.Security.Cryptography.Primitives.Tests.csproj", "{47969DAC-2328-4D7F-8BFF-85AA538FBCC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.ProtectedData", "System.Security.Cryptography.ProtectedData\ref\System.Security.Cryptography.ProtectedData.csproj", "{3CE6967B-2111-473E-B3D3-859FE73C6F30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.ProtectedData", "System.Security.Cryptography.ProtectedData\src\System.Security.Cryptography.ProtectedData.csproj", "{2F2C53B1-D4BC-4474-9167-A2EA2B16FB15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.ProtectedData.Tests", "System.Security.Cryptography.ProtectedData\tests\System.Security.Cryptography.ProtectedData.Tests.csproj", "{B08EF19F-C7E1-476D-82D6-F1591A53B4B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.X509Certificates", "System.Security.Cryptography.X509Certificates\ref\System.Security.Cryptography.X509Certificates.csproj", "{A37C98DE-760E-45D4-8505-037381421ABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.X509Certificates", "System.Security.Cryptography.X509Certificates\src\System.Security.Cryptography.X509Certificates.csproj", "{297ADE05-354C-43F9-AE83-CAB60CB2F5C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.X509Certificates.Tests", "System.Security.Cryptography.X509Certificates\tests\System.Security.Cryptography.X509Certificates.Tests.csproj", "{E0A03EA7-1360-442B-B2D3-7016EFC0426A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Xml", "System.Security.Cryptography.Xml\ref\System.Security.Cryptography.Xml.csproj", "{1599CAFA-5EB9-4E43-94EB-81E7A2807FB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Xml", "System.Security.Cryptography.Xml\src\System.Security.Cryptography.Xml.csproj", "{09E6220F-3DE5-4A62-9557-F699DFE4C4D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Xml.Tests", "System.Security.Cryptography.Xml\tests\System.Security.Cryptography.Xml.Tests.csproj", "{11F62C35-616E-47D1-B069-F28541B5F761}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Permissions", "System.Security.Permissions\ref\System.Security.Permissions.csproj", "{BD4C1F82-6A82-4433-85DE-481AEA571FCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Permissions", "System.Security.Permissions\src\System.Security.Permissions.csproj", "{37F01AAE-7361-4E54-9104-62176D1CCB1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Permissions.Tests", "System.Security.Permissions\tests\System.Security.Permissions.Tests.csproj", "{D6B55666-00DA-4780-A6D4-AD3103A36B8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Principal", "System.Security.Principal\ref\System.Security.Principal.csproj", "{85DEB593-595E-467A-BA78-98250F4F7206}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Principal", "System.Security.Principal\src\System.Security.Principal.csproj", "{AC5DF8B3-69A1-43EA-87F7-F3C108AE25F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Principal.Windows", "System.Security.Principal.Windows\ref\System.Security.Principal.Windows.csproj", "{F0C7B5D6-9A86-4CE9-B856-CEB7415D0124}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Principal.Windows", "System.Security.Principal.Windows\src\System.Security.Principal.Windows.csproj", "{554555D4-52E1-40EE-9D4C-4516A92523FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Principal.Windows.Tests", "System.Security.Principal.Windows\tests\System.Security.Principal.Windows.Tests.csproj", "{31CC8263-06BE-4241-8EDE-39D5BB6A34F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.SecureString", "System.Security.SecureString\ref\System.Security.SecureString.csproj", "{26A07213-88D2-464B-98DE-1A5C01D8C782}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.SecureString", "System.Security.SecureString\src\System.Security.SecureString.csproj", "{50573A62-89B1-49E6-967A-0EE32198F73B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.SecureString.Tests", "System.Security.SecureString\tests\System.Security.SecureString.Tests.csproj", "{2BC32FA5-B070-4AA8-98EB-C16729E46BFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceModel.Syndication", "System.ServiceModel.Syndication\ref\System.ServiceModel.Syndication.csproj", "{FA99EF06-2FEC-4767-A891-27ABFCEFD054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceModel.Syndication", "System.ServiceModel.Syndication\src\System.ServiceModel.Syndication.csproj", "{453EAD23-59F4-4D90-92FB-106491BCE1D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceModel.Syndication.Tests", "System.ServiceModel.Syndication\tests\System.ServiceModel.Syndication.Tests.csproj", "{CB6AEB2B-26CB-4EB1-A164-B66B47F94F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceProcess.ServiceController", "System.ServiceProcess.ServiceController\ref\System.ServiceProcess.ServiceController.csproj", "{8FCCA58E-9F5D-4B16-84C9-7E5423E836B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceProcess.ServiceController", "System.ServiceProcess.ServiceController\src\System.ServiceProcess.ServiceController.csproj", "{E9DCB6BB-A44D-4A36-A986-42295CA65EF1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceProcess.ServiceController.Tests", "System.ServiceProcess.ServiceController\tests\System.ServiceProcess.ServiceController.Tests.csproj", "{46AE4C80-DDEE-49E7-90EB-1DDE2B92EE7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding", "System.Text.Encoding\ref\System.Text.Encoding.csproj", "{4EFCF662-0036-4874-8141-71276B1EDDB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding", "System.Text.Encoding\src\System.Text.Encoding.csproj", "{D10C00CF-7652-4048-9DE3-A3A491CCB2A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.Tests", "System.Text.Encoding\tests\System.Text.Encoding.Tests.csproj", "{D6867E19-0A28-44C0-8452-4C397D323776}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.CodePages", "System.Text.Encoding.CodePages\ref\System.Text.Encoding.CodePages.csproj", "{C9B41248-4A33-40BC-AE87-4D606BA5B139}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.CodePages", "System.Text.Encoding.CodePages\src\System.Text.Encoding.CodePages.csproj", "{7D991BFE-0F7D-489A-8D35-F5C14F22EADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.CodePages.Tests", "System.Text.Encoding.CodePages\tests\System.Text.Encoding.CodePages.Tests.csproj", "{D88484B6-0C62-476C-9929-5C32F7D25ECE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.Extensions", "System.Text.Encoding.Extensions\ref\System.Text.Encoding.Extensions.csproj", "{19CDA389-5D6C-48A7-8886-423B175E5F85}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.Extensions", "System.Text.Encoding.Extensions\src\System.Text.Encoding.Extensions.csproj", "{9C5BD5AD-C35C-42A5-9DED-13872014547E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.Extensions.Tests", "System.Text.Encoding.Extensions\tests\System.Text.Encoding.Extensions.Tests.csproj", "{8050084A-9CA5-4825-A243-FED90577A563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encodings.Web", "System.Text.Encodings.Web\src\System.Text.Encodings.Web.csproj", "{B9DB2F71-E06C-4ADC-8A68-0D2F4C19EABD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encodings.Web.Tests", "System.Text.Encodings.Web\tests\System.Text.Encodings.Web.Tests.csproj", "{E95A267A-C601-475A-BB37-515BD8834EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Json", "System.Text.Json\ref\System.Text.Json.csproj", "{2D889DEE-0E32-43ED-B27D-9E62D588DBBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Json", "System.Text.Json\src\System.Text.Json.csproj", "{B2FD22E0-86AA-44C8-886D-214487B59881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Json.Tests", "System.Text.Json\tests\System.Text.Json.Tests.csproj", "{584AF4A5-6679-4FB0-AA5C-4830C3529762}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.RegularExpressions", "System.Text.RegularExpressions\ref\System.Text.RegularExpressions.csproj", "{5C1EF282-B46E-46C1-BC5E-87C158C94CC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.RegularExpressions", "System.Text.RegularExpressions\src\System.Text.RegularExpressions.csproj", "{29C61A94-2980-4E41-A47A-FB41F8D9A84C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.RegularExpressions.Tests", "System.Text.RegularExpressions\tests\System.Text.RegularExpressions.Tests.csproj", "{DE162829-8A2F-4187-83BA-C118CE856A58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading", "System.Threading\ref\System.Threading.csproj", "{FC012F5A-B567-4451-87C1-141EDEF1D78D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading", "System.Threading\src\System.Threading.csproj", "{B768167A-CF3E-43B0-AEAF-E7592081B165}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tests", "System.Threading\tests\System.Threading.Tests.csproj", "{CA565FD9-5B56-4DFA-BF2A-A8E088EF28D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.AccessControl", "System.Threading.AccessControl\ref\System.Threading.AccessControl.csproj", "{844BCF45-88D9-44AB-B1FD-40FD9C2D299B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.AccessControl", "System.Threading.AccessControl\src\System.Threading.AccessControl.csproj", "{F4DD656A-9334-4A1D-BEC0-6EB5F440A6BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.AccessControl.Tests", "System.Threading.AccessControl\tests\System.Threading.AccessControl.Tests.csproj", "{57E36520-05FD-4F7F-A444-7BF5E8BDDE5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Channels", "System.Threading.Channels\ref\System.Threading.Channels.csproj", "{DBEB7004-5E11-4BF8-9D83-34330403B6E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Channels", "System.Threading.Channels\src\System.Threading.Channels.csproj", "{433E61A1-86AF-474D-954B-66D45F64A184}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Channels.Tests", "System.Threading.Channels\tests\System.Threading.Channels.Tests.csproj", "{AC3D596E-0CE8-4CC2-813E-C00D36B91D1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Overlapped", "System.Threading.Overlapped\ref\System.Threading.Overlapped.csproj", "{C8838568-C27D-4AAE-B4F2-F53E7106ECCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Overlapped", "System.Threading.Overlapped\src\System.Threading.Overlapped.csproj", "{77177A45-C69C-4A37-BDA6-9B43AACBE4D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Overlapped.Tests", "System.Threading.Overlapped\tests\System.Threading.Overlapped.Tests.csproj", "{BB0077E3-2CA9-497D-BDF8-B04C4989C3DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks", "System.Threading.Tasks\ref\System.Threading.Tasks.csproj", "{AC4CA110-8534-4EFE-9D67-A9A3C69FBA91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks", "System.Threading.Tasks\src\System.Threading.Tasks.csproj", "{BAC2E8A1-1174-4AAD-9336-7D041409185A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Tests", "System.Threading.Tasks\tests\System.Threading.Tasks.Tests.csproj", "{B9BE1FEE-C0CB-4B7D-8681-326D27F2B7C5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Dataflow", "System.Threading.Tasks.Dataflow\ref\System.Threading.Tasks.Dataflow.csproj", "{D99A7B00-B6DF-41CF-96FB-B92FD5A43979}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Dataflow", "System.Threading.Tasks.Dataflow\src\System.Threading.Tasks.Dataflow.csproj", "{57831849-ED98-4166-89F0-2C3408AA7DC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Dataflow.Tests", "System.Threading.Tasks.Dataflow\tests\System.Threading.Tasks.Dataflow.Tests.csproj", "{73F838AF-7328-4B9E-A073-7741499CE522}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Extensions", "System.Threading.Tasks.Extensions\ref\System.Threading.Tasks.Extensions.csproj", "{6FD80FA6-BE29-42E0-A1A9-BE5A1B9979AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Extensions", "System.Threading.Tasks.Extensions\src\System.Threading.Tasks.Extensions.csproj", "{642FB432-AA32-486D-A80D-C047D76476BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Extensions.Tests", "System.Threading.Tasks.Extensions\tests\System.Threading.Tasks.Extensions.Tests.csproj", "{08118195-0D50-4D9D-8A98-DC3F95F57E55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Parallel", "System.Threading.Tasks.Parallel\ref\System.Threading.Tasks.Parallel.csproj", "{EB169B28-90FB-43EE-9F75-74DE4BEDDDCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Parallel", "System.Threading.Tasks.Parallel\src\System.Threading.Tasks.Parallel.csproj", "{0C79BEA4-4A05-49E3-AF12-0B2F2FCD6EFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Parallel.Tests", "System.Threading.Tasks.Parallel\tests\System.Threading.Tasks.Parallel.Tests.csproj", "{694087A1-859B-4228-B940-FAA6715C3901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Thread", "System.Threading.Thread\ref\System.Threading.Thread.csproj", "{8CC8AEF7-675D-42A9-85DB-17487CB69920}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Thread", "System.Threading.Thread\src\System.Threading.Thread.csproj", "{27C2F455-983A-423E-89D0-38941A03EAD6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Thread.Tests", "System.Threading.Thread\tests\System.Threading.Thread.Tests.csproj", "{9F55CC81-7160-4C36-B521-822A2909F1B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.ThreadPool", "System.Threading.ThreadPool\ref\System.Threading.ThreadPool.csproj", "{8C42EB85-5244-4042-A14D-343C5F1C015E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.ThreadPool", "System.Threading.ThreadPool\src\System.Threading.ThreadPool.csproj", "{812C80C9-D790-4722-821B-87A0331A9390}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.ThreadPool.Tests", "System.Threading.ThreadPool\tests\System.Threading.ThreadPool.Tests.csproj", "{302AC662-DD56-4204-8CC5-79055C972A3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Timer", "System.Threading.Timer\ref\System.Threading.Timer.csproj", "{A8B1F2BD-4714-46CF-B03E-6E09F29022DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Timer", "System.Threading.Timer\src\System.Threading.Timer.csproj", "{7FA61B2F-E562-4210-98A9-092CB953AC52}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Timer.Tests", "System.Threading.Timer\tests\System.Threading.Timer.Tests.csproj", "{45196E90-D55D-4C12-9EBF-71C1DE522723}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Transactions.Local", "System.Transactions.Local\ref\System.Transactions.Local.csproj", "{F93366CA-361C-4EE3-8BEC-3A1107B488D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Transactions.Local", "System.Transactions.Local\src\System.Transactions.Local.csproj", "{4751D58F-0CE5-472D-A182-A4B8C4288F8B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Transactions.Local.Tests", "System.Transactions.Local\tests\System.Transactions.Local.Tests.csproj", "{F7C36D4A-E07D-45CB-AA1D-EBA9F6DD4A55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ValueTuple", "System.ValueTuple\ref\System.ValueTuple.csproj", "{06337F8B-E177-4297-88FD-9FAC83C9A667}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ValueTuple", "System.ValueTuple\src\System.ValueTuple.csproj", "{1A735DFA-7697-446B-B74F-B5C4476405BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ValueTuple.Tests", "System.ValueTuple\tests\System.ValueTuple.Tests.csproj", "{B6B9BC89-291A-40F9-AA63-5B71E1EC1053}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Web.HttpUtility", "System.Web.HttpUtility\ref\System.Web.HttpUtility.csproj", "{A79A1D6F-3B41-41DF-AE02-5D508FCAECEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Web.HttpUtility", "System.Web.HttpUtility\src\System.Web.HttpUtility.csproj", "{9CFB2543-C89F-4C38-A47F-C845013515A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Web.HttpUtility.Tests", "System.Web.HttpUtility\tests\System.Web.HttpUtility.Tests.csproj", "{DCA9F4B2-96C7-4BED-B0C0-A2AAC95F0EB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Windows.Extensions", "System.Windows.Extensions\ref\System.Windows.Extensions.csproj", "{36A0298D-E01E-411D-A19B-19EEC60B9A8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Windows.Extensions", "System.Windows.Extensions\src\System.Windows.Extensions.csproj", "{8E9F2587-55E2-4B09-8CC9-0686FC9C803F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Windows.Extensions.Tests", "System.Windows.Extensions\tests\System.Windows.Extensions.Tests.csproj", "{AC1A1515-70D8-42E4-9B19-A72F739E974C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.ReaderWriter", "System.Xml.ReaderWriter\ref\System.Xml.ReaderWriter.csproj", "{0A010EE3-D4E2-4700-BBB6-46B436C10BE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.ReaderWriter", "System.Xml.ReaderWriter\src\System.Xml.ReaderWriter.csproj", "{1F202940-10E6-4851-8E35-E54D726F794C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XDocument", "System.Xml.XDocument\ref\System.Xml.XDocument.csproj", "{CA37B674-E65F-49BA-8C43-5D9367F92F77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XDocument", "System.Xml.XDocument\src\System.Xml.XDocument.csproj", "{64D2D4BF-8FDE-4941-8027-AE1C34682D76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlDocument", "System.Xml.XmlDocument\ref\System.Xml.XmlDocument.csproj", "{E8E2117F-E67E-42AC-9945-F09CEEF9E95F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlDocument", "System.Xml.XmlDocument\src\System.Xml.XmlDocument.csproj", "{CF7E62A2-1E21-40CB-A83D-B41123CC1B6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSerializer", "System.Xml.XmlSerializer\ref\System.Xml.XmlSerializer.csproj", "{609E2452-90C9-431A-8B0D-135E81D5CC19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSerializer", "System.Xml.XmlSerializer\src\System.Xml.XmlSerializer.csproj", "{DB0021D2-E45B-4FE0-ACEC-B488B49E45B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath", "System.Xml.XPath\ref\System.Xml.XPath.csproj", "{514A8731-E535-4189-83A9-3F60139712E3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath", "System.Xml.XPath\src\System.Xml.XPath.csproj", "{4F6DA200-0BDD-40B3-960B-DDAE75A41D43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath.XDocument", "System.Xml.XPath.XDocument\ref\System.Xml.XPath.XDocument.csproj", "{6790B4A8-AC2D-4330-9284-61CA2EECD23A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath.XDocument", "System.Xml.XPath.XDocument\src\System.Xml.XPath.XDocument.csproj", "{F497FF57-81AD-45A7-A8E4-049176059297}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.PerformanceTests", "Common\tests\Performance\Common.PerformanceTests.csproj", "{E26C4FBC-6D1A-4A32-B639-E93EAA09BA04}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.PerformanceTests", "System.Collections\tests\Performance\System.Collections.PerformanceTests.csproj", "{C3821100-0A7F-4413-8162-158F7B68C305}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.Concurrent.PerformanceTests", "System.Collections.Concurrent\tests\Performance\System.Collections.Concurrent.PerformanceTests.csproj", "{DD00B714-7E94-47A8-BFC3-DB3FE623B754}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Collections.NonGeneric.PerformanceTests", "System.Collections.NonGeneric\tests\Performance\System.Collections.NonGeneric.PerformanceTests.csproj", "{CA40CFA7-AAAD-498C-B9C9-B4F666BA769B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.Composition.Noop.Assembly", "System.ComponentModel.Composition\tests\System.ComponentModel.Composition.Noop.Assembly\System.ComponentModel.Composition.Noop.Assembly.csproj", "{67D577E4-17A8-4EA2-ACFF-02786255BEF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ComponentModel.TypeConverter.PerformanceTests", "System.ComponentModel.TypeConverter\tests\Performance\System.ComponentModel.TypeConverter.PerformanceTests.csproj", "{72DA0908-D86E-44CB-84F5-926CD4AD686B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Composition.Demos.ExtendedCollectionImports", "System.Composition\tests\Microsoft.Composition.Demos.ExtendedCollectionImports\Microsoft.Composition.Demos.ExtendedCollectionImports.csproj", "{902FD138-BF6D-419B-8D77-587E22AA1A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLibrary", "System.Composition\tests\TestLibrary\TestLibrary.csproj", "{0AEF11F3-9D00-44C4-B888-5D354DEF4B43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Console.Manual.Tests", "System.Console\tests\ManualTests\System.Console.Manual.Tests.csproj", "{028AEA45-5457-4DC8-AFAA-EF5F7F9F360F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Console.PerformanceTests", "System.Console\tests\Performance\System.Console.PerformanceTests.csproj", "{126867A3-1232-437C-BCF0-D6C3FAF1C199}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.SqlClient.Tests", "System.Data.SqlClient\tests\FunctionalTests\System.Data.SqlClient.Tests.csproj", "{4A85C4A8-CDF5-4C67-B309-FC01F480633F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.SqlClient.ManualTesting.Tests", "System.Data.SqlClient\tests\ManualTests\System.Data.SqlClient.ManualTesting.Tests.csproj", "{38AB4766-2864-4D60-BD91-734EAA3FB563}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.FileVersionInfo.TestAssembly", "System.Diagnostics.FileVersionInfo\tests\System.Diagnostics.FileVersionInfo.TestAssembly\System.Diagnostics.FileVersionInfo.TestAssembly.csproj", "{A1589AB7-CF10-4C88-9450-C3251B0ED4B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.FileVersionInfo.Tests", "System.Diagnostics.FileVersionInfo\tests\System.Diagnostics.FileVersionInfo.Tests\System.Diagnostics.FileVersionInfo.Tests.csproj", "{275AEF5A-2AF0-40D6-B68B-0139C55CEAA5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Diagnostics.Process.PerformanceTests", "System.Diagnostics.Process\tests\Performance\System.Diagnostics.Process.PerformanceTests.csproj", "{C63D18B6-1EBF-4303-BAF3-C007AEF8276F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Common.PerformanceTests", "System.Drawing.Common\tests\Performance\System.Drawing.Common.PerformanceTests.csproj", "{7F467AE8-CDCF-4A63-B71D-FC748189EA01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Drawing.Primitives.PerformanceTests", "System.Drawing.Primitives\tests\Performance\System.Drawing.Primitives.PerformanceTests.csproj", "{56C8BA8B-C4C3-4E96-8F43-C8E821F47163}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Invariant.Tests", "System.Globalization\tests\Invariant\Invariant.Tests.csproj", "{0178D818-C6A0-4AEF-923E-BB4D6BA3F773}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.PerformanceTests", "System.Globalization\tests\Performance\System.Globalization.PerformanceTests.csproj", "{8A0B2190-2CE6-4B43-862F-B3185DCEC3BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Globalization.CalendarsWithConfigSwitch.Tests", "System.Globalization.Calendars\tests\CalendarTestWithConfigSwitch\System.Globalization.CalendarsWithConfigSwitch.Tests.csproj", "{FA65F917-A990-4182-891D-73BFE2C9CD7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.PerformanceTests", "System.IO\tests\Performance\System.IO.PerformanceTests.csproj", "{76DFB331-6854-4AF4-AFAC-99B5D4C8A457}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.PerformanceTests", "System.IO.Compression\tests\Performance\System.IO.Compression.PerformanceTests.csproj", "{E801F64B-28C9-4011-8F57-3EDBB6BFB840}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Compression.Brotli.PerformanceTests", "System.IO.Compression.Brotli\tests\Performance\System.IO.Compression.Brotli.PerformanceTests.csproj", "{1E49C76A-9A05-4E4D-9977-F407064CA2CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.FileSystem.PerformanceTests", "System.IO.FileSystem\tests\Performance\System.IO.FileSystem.PerformanceTests.csproj", "{A1B89581-9744-4D4C-A23D-92C33BCCD5ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.MemoryMappedFiles.PerformanceTests", "System.IO.MemoryMappedFiles\tests\Performance\System.IO.MemoryMappedFiles.PerformanceTests.csproj", "{F40D7624-D806-4509-977D-8687B7055E96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipelines.PerformanceTests", "System.IO.Pipelines\tests\Performance\System.IO.Pipelines.PerformanceTests.csproj", "{2DF9667E-B91A-4E45-9805-F55F52C7904A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.IO.Pipes.PerformanceTests", "System.IO.Pipes\tests\Performance\System.IO.Pipes.PerformanceTests.csproj", "{F6299724-362F-413C-9D7D-3DAB432E5FEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.PerformanceTests", "System.Linq\tests\Performance\System.Linq.PerformanceTests.csproj", "{327ED2D6-5035-40A8-9A28-64A59E422B98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Linq.Parallel.PerformanceTests", "System.Linq.Parallel\tests\Performance\System.Linq.Parallel.PerformanceTests.csproj", "{522C25D3-7B80-46BF-92A3-99AFD04B92CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Memory.PerformanceTests", "System.Memory\tests\Performance\System.Memory.PerformanceTests.csproj", "{6B027A6B-0D15-4AE6-A93C-C3FEB7A9B162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.Functional.Tests", "System.Net.Http\tests\FunctionalTests\System.Net.Http.Functional.Tests.csproj", "{1B17D695-16C5-48D8-B674-33207AA30C08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.PerformanceTests", "System.Net.Http\tests\Performance\System.Net.Http.PerformanceTests.csproj", "{B3604B87-6ADD-4523-9CFE-EF34D8F1C23A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.Unit.Tests", "System.Net.Http\tests\UnitTests\System.Net.Http.Unit.Tests.csproj", "{01A22605-4C06-4ADB-8639-2B574866D106}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.WinHttpHandler.Functional.Tests", "System.Net.Http.WinHttpHandler\tests\FunctionalTests\System.Net.Http.WinHttpHandler.Functional.Tests.csproj", "{96063118-3286-4955-8934-D182192B796B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Http.WinHttpHandler.Unit.Tests", "System.Net.Http.WinHttpHandler\tests\UnitTests\System.Net.Http.WinHttpHandler.Unit.Tests.csproj", "{8E837636-9827-4730-BD8A-E58566174F28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Mail.Functional.Tests", "System.Net.Mail\tests\Functional\System.Net.Mail.Functional.Tests.csproj", "{24EAD99A-12C7-41C9-86A7-A9CAE9B55E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Mail.Unit.Tests", "System.Net.Mail\tests\Unit\System.Net.Mail.Unit.Tests.csproj", "{1998D5A6-7C24-42CE-B6DF-03CDD411C4D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NameResolution.Functional.Tests", "System.Net.NameResolution\tests\FunctionalTests\System.Net.NameResolution.Functional.Tests.csproj", "{F506FD07-DEB1-4C21-8C2B-BB9526948112}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NameResolution.Pal.Tests", "System.Net.NameResolution\tests\PalTests\System.Net.NameResolution.Pal.Tests.csproj", "{392FFFC4-6CA8-4385-A3D3-89EBFDE2B11C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NameResolution.Unit.Tests", "System.Net.NameResolution\tests\UnitTests\System.Net.NameResolution.Unit.Tests.csproj", "{D8CBA79B-C113-4FE5-BF65-46632F77DD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.NetworkInformation.Functional.Tests", "System.Net.NetworkInformation\tests\FunctionalTests\System.Net.NetworkInformation.Functional.Tests.csproj", "{BDB6E26B-3932-4B32-84F0-52EE387CD16C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Ping.Functional.Tests", "System.Net.Ping\tests\FunctionalTests\System.Net.Ping.Functional.Tests.csproj", "{BF2F90DA-4239-45DA-BC60-3B758694BBD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives.Functional.Tests", "System.Net.Primitives\tests\FunctionalTests\System.Net.Primitives.Functional.Tests.csproj", "{00577784-6658-4A5E-BE8A-27A7D7024427}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives.Pal.Tests", "System.Net.Primitives\tests\PalTests\System.Net.Primitives.Pal.Tests.csproj", "{BDAA6382-E29B-42EE-A61F-2A7DB43DB326}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives.PerformanceTests", "System.Net.Primitives\tests\PerformanceTests\System.Net.Primitives.PerformanceTests.csproj", "{B104F59D-2FC3-485E-9763-B882EAD7D7E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Primitives.UnitTests.Tests", "System.Net.Primitives\tests\UnitTests\System.Net.Primitives.UnitTests.Tests.csproj", "{45151502-E5FA-4589-9FD4-676A0CA7AB50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Security.Tests", "System.Net.Security\tests\FunctionalTests\System.Net.Security.Tests.csproj", "{F3390F45-74F9-4C3A-B8DE-D44617B69AE1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Security.Unit.Tests", "System.Net.Security\tests\UnitTests\System.Net.Security.Unit.Tests.csproj", "{BC9B25BD-A3FF-46B8-B2F4-D759D8D8AAC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Sockets.Tests", "System.Net.Sockets\tests\FunctionalTests\System.Net.Sockets.Tests.csproj", "{964AF745-2F4F-4DE3-B484-84E230973A3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Sockets.Async.PerformanceTests", "System.Net.Sockets\tests\ManualPerformanceTests\System.Net.Sockets.Async.PerformanceTests.csproj", "{10E9506B-DE3D-45B6-BF57-724B23E915C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Net.Sockets.PerformanceTests", "System.Net.Sockets\tests\Performance\System.Net.Sockets.PerformanceTests.csproj", "{366AEBC3-BC61-4493-990F-6E52003C57E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Numerics.Vectors.PerformanceTests", "System.Numerics.Vectors\tests\Performance\System.Numerics.Vectors.PerformanceTests.csproj", "{96465A03-E6A8-4ABC-ADF3-C0726F8291F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Uri.ExtendedFunctional.Tests", "System.Private.Uri\tests\ExtendedFunctionalTests\System.Private.Uri.ExtendedFunctional.Tests.csproj", "{F104F8E3-AE31-4069-BFF4-0EFB5617EC00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Uri.Functional.Tests", "System.Private.Uri\tests\FunctionalTests\System.Private.Uri.Functional.Tests.csproj", "{4ED3B0AD-996B-46C3-8896-EBE0BBCDF982}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Private.Uri.Unit.Tests", "System.Private.Uri\tests\UnitTests\System.Private.Uri.Unit.Tests.csproj", "{E3A76B1A-5E45-4661-8192-24CB181E4EE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Misc.Tests", "System.Private.Xml\tests\Misc\System.Xml.Misc.Tests.csproj", "{A48CFCB9-2993-4434-AFF6-C9AFFE8B038F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlConvert.Tests", "System.Private.Xml\tests\XmlConvert\System.Xml.RW.XmlConvert.Tests.csproj", "{4A3A2153-D045-4A99-9263-966BC992D355}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlDocument.Tests", "System.Private.Xml\tests\XmlDocument\System.Xml.XmlDocument.Tests.csproj", "{96373BF2-2CD8-440F-8F7E-05A164AB8F72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlReaderLib", "System.Private.Xml\tests\XmlReaderLib\System.Xml.RW.XmlReaderLib.csproj", "{2A18C4E8-2077-4FB4-AAFE-FFA9FF650235}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSerializer.Tests", "System.Private.Xml\tests\XmlSerializer\System.Xml.XmlSerializer.Tests.csproj", "{C28E9A84-0B1A-4F75-927D-AC2F56F9908D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlWriter.Tests", "System.Private.Xml\tests\XmlWriter\System.Xml.RW.XmlWriter.Tests.csproj", "{BB761678-B00D-47BD-A0C8-9FA5B0B3C4D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.Axes.Tests", "System.Private.Xml.Linq\tests\axes\System.Xml.Linq.Axes.Tests.csproj", "{F3AA606D-6322-4BB7-B146-D9337374FFB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.Events.Tests", "System.Private.Xml.Linq\tests\events\System.Xml.Linq.Events.Tests.csproj", "{FC0D1A38-EF9A-4C12-9049-50E9DCAA9D8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.Misc.Tests", "System.Private.Xml.Linq\tests\misc\System.Xml.Linq.Misc.Tests.csproj", "{5231AE39-18AB-4166-BA99-6F6759B11827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.Properties.Tests", "System.Private.Xml.Linq\tests\Properties\System.Xml.Linq.Properties.Tests.csproj", "{05DF4C94-D7F4-43F6-87C0-1ECD47DC15B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Schema.Extensions.Tests", "System.Private.Xml.Linq\tests\Schema\System.Xml.Schema.Extensions.Tests.csproj", "{A5154889-B89D-474E-8351-54C593242B5D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.SDMSample.Tests", "System.Private.Xml.Linq\tests\SDMSample\System.Xml.Linq.SDMSample.Tests.csproj", "{3E101E90-AC98-4726-A0E3-377D879A6F77}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.Streaming.Tests", "System.Private.Xml.Linq\tests\Streaming\System.Xml.Linq.Streaming.Tests.csproj", "{A468844C-4BF0-42A8-BFFC-C13D644B2AF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.TreeManipulation.Tests", "System.Private.Xml.Linq\tests\TreeManipulation\System.Xml.Linq.TreeManipulation.Tests.csproj", "{9460CDC3-97A1-426E-955A-7A3BB326AA0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XDocument.Common", "System.Private.Xml.Linq\tests\XDocument.Common\XDocument.Common.csproj", "{3E69553D-502F-45F9-A298-A2444941A5EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XDocument.Test.ModuleCore", "System.Private.Xml.Linq\tests\XDocument.Test.ModuleCore\XDocument.Test.ModuleCore.csproj", "{E16D296A-0364-4883-A27B-9B720C076D44}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.xNodeBuilder.Tests", "System.Private.Xml.Linq\tests\xNodeBuilder\System.Xml.Linq.xNodeBuilder.Tests.csproj", "{383D5630-6EAB-4AF3-8A24-E10F8C949B7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Linq.xNodeReader.Tests", "System.Private.Xml.Linq\tests\xNodeReader\System.Xml.Linq.xNodeReader.Tests.csproj", "{AFB8B7AA-4CF3-4ED6-85FD-CF3C83CB4AA2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_0_0_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_0_0_0_0.csproj", "{6DC08254-A5A0-4CBF-B090-E3D3FBFF8F0C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_0_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_0_0_0.csproj", "{C09357AA-6120-4475-AA42-D06E7AC626CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_0_0.csproj", "{BF7FA776-434F-473E-8F14-79B7EBFAD5DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_1_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_1_0.csproj", "{0B71E873-F559-4299-B817-E1866CD995B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_1_2", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_1_2.csproj", "{23983ED5-7C62-46E6-9CA1-60C3E35E0C49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_1_3", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_1_3.csproj", "{6578D69C-A321-4385-9DF2-ACDE43565340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_2_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_2_0.csproj", "{CD839512-ADE2-4A9B-A160-8046B6642610}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_1_3_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_1_3_0.csproj", "{484FF4C5-E923-445E-A190-98C64D0AEB1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_2_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_2_0_0.csproj", "{A74D9459-C977-48B6-9AB4-2A789A78657E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_1_3_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_1_3_0_0.csproj", "{E682E921-4553-4787-9C3C-BDCF258A64D0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.Tests.Assembly_3_0_0_0", "System.Reflection\tests\AssemblyVersion\System.Reflection.Tests.Assembly_3_0_0_0.csproj", "{E067E600-D10C-4D11-9DD2-3E4894A91BDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.CoreCLR.Tests", "System.Reflection\tests\CoreCLR\System.Reflection.CoreCLR.Tests.csproj", "{DF61C03F-C208-48BF-9273-B648A93314D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForwardedTypesAssembly", "System.Reflection\tests\ForwardedTypesAssembly\ForwardedTypesAssembly.csproj", "{DBB1EE62-4059-4F95-AF98-F5B033088ADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAssembly", "System.Reflection\tests\TestAssembly\TestAssembly.csproj", "{0FBEF4D4-6C2C-443C-BB21-B8B92C4DD695}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.TestExe", "System.Reflection\tests\TestExe\System.Reflection.TestExe.csproj", "{F5E27505-DB13-4C89-A097-09891B2ABA20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnloadableAssembly", "System.Reflection\tests\UnloadableAssembly\UnloadableAssembly.csproj", "{3A9FB592-98FD-4DBA-A2A6-B33489479F36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Reflection.TypeExtensions.CoreCLR.Tests", "System.Reflection.TypeExtensions\tests\CoreCLR\System.Reflection.TypeExtensions.CoreCLR.Tests.csproj", "{E76E0854-1F1C-4257-A986-CFB309D5EF5B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.PerformanceTests", "System.Runtime\tests\Performance\System.Runtime.PerformanceTests.csproj", "{4570EA12-05D7-4672-B9E9-9AC8D7A01571}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCollectibleAssembly", "System.Runtime\tests\TestCollectibleAssembly\TestCollectibleAssembly.csproj", "{51478E33-5E83-4002-B0FF-58A288C5F8B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestLoadAssembly", "System.Runtime\tests\TestLoadAssembly\TestLoadAssembly.csproj", "{7A1637BC-CAFA-465E-96F6-E039BC1E461A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyResolveTestApp", "System.Runtime.Extensions\tests\AssemblyResolveTestApp\AssemblyResolveTestApp.csproj", "{47CCE491-E2D7-473C-BB59-C935933A2672}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Extensions.PerformanceTests", "System.Runtime.Extensions\tests\Performance\System.Runtime.Extensions.PerformanceTests.csproj", "{7D7C465E-84E8-4133-80D0-B4B5B553A8B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestApp", "System.Runtime.Extensions\tests\TestApp\TestApp.csproj", "{675CB6B5-6357-409E-AE2C-9697F108473A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAppOutsideOfTPA", "System.Runtime.Extensions\tests\TestAppOutsideOfTPA\TestAppOutsideOfTPA.csproj", "{489EC676-5F3A-49F0-8444-F041C45AC333}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VoidMainWithExitCodeApp", "System.Runtime.Extensions\tests\VoidMainWithExitCodeApp\VoidMainWithExitCodeApp.csproj", "{2F3A28BC-090F-4C0B-B766-531217BD371C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.DefaultContext.Tests", "System.Runtime.Loader\tests\DefaultContext\System.Runtime.Loader.DefaultContext.Tests.csproj", "{2B60D977-8C9D-4E70-8D40-A9C9C02F4977}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.RefEmitLoadContext.Tests", "System.Runtime.Loader\tests\RefEmitLoadContext\System.Runtime.Loader.RefEmitLoadContext.Tests.csproj", "{B3B81182-E18C-4C5E-8948-542871D86674}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.Noop.Assembly", "System.Runtime.Loader\tests\System.Runtime.Loader.Noop.Assembly\System.Runtime.Loader.Noop.Assembly.csproj", "{BCBBE020-4E3C-4A19-8AED-7771B9B02115}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.Test.Assembly", "System.Runtime.Loader\tests\System.Runtime.Loader.Test.Assembly\System.Runtime.Loader.Test.Assembly.csproj", "{F3DD1E47-CF87-4E04-977C-7A763179DEE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.Test.Assembly2", "System.Runtime.Loader\tests\System.Runtime.Loader.Test.Assembly2\System.Runtime.Loader.Test.Assembly2.csproj", "{817BEC82-F62E-4805-ADE5-22F8925A13C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Loader.Test.AssemblyNotSupported", "System.Runtime.Loader\tests\System.Runtime.Loader.Test.AssemblyNotSupported\System.Runtime.Loader.Test.AssemblyNotSupported.csproj", "{42684991-30F8-413C-A2A5-131C719DC3C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Numerics.PerformanceTests", "System.Runtime.Numerics\tests\Performance\System.Runtime.Numerics.PerformanceTests.csproj", "{44B257CA-F264-4926-A243-FA12A782370C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Json.PerformanceTests", "System.Runtime.Serialization.Json\tests\Performance\System.Runtime.Serialization.Json.PerformanceTests.csproj", "{A4A9C858-EC12-4D75-B769-D134C10BFE78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Json.ReflectionOnly.Tests", "System.Runtime.Serialization.Json\tests\ReflectionOnly\System.Runtime.Serialization.Json.ReflectionOnly.Tests.csproj", "{EEB723C2-EB65-43BC-9979-96B34A6D6E63}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml.Canonicalization", "System.Runtime.Serialization.Xml\tests\Canonicalization\System.Runtime.Serialization.Xml.Canonicalization.csproj", "{1421B0D0-6A49-40AD-A6A0-CE5894BD005B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml.PerformanceTests", "System.Runtime.Serialization.Xml\tests\Performance\System.Runtime.Serialization.Xml.PerformanceTests.csproj", "{B7BA4608-BE29-4034-8E58-6044D644F4ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Runtime.Serialization.Xml.ReflectionOnly.Tests", "System.Runtime.Serialization.Xml\tests\ReflectionOnly\System.Runtime.Serialization.Xml.ReflectionOnly.Tests.csproj", "{DFA17301-FE8C-4AFF-AFEC-16431918195F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Security.Cryptography.Primitives.PerformanceTests", "System.Security.Cryptography.Primitives\tests\Performance\System.Security.Cryptography.Primitives.PerformanceTests.csproj", "{63523A0D-B0AC-4F5A-8933-63ABF3973165}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.ServiceProcess.ServiceController.TestService", "System.ServiceProcess.ServiceController\tests\System.ServiceProcess.ServiceController.TestService\System.ServiceProcess.ServiceController.TestService.csproj", "{A9739BE6-BBE6-4B9B-834D-F8B9B0BC9D33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.Encoding.PerformanceTests", "System.Text.Encoding\tests\Performance\System.Text.Encoding.PerformanceTests.csproj", "{1E4CA10A-CB30-4E65-B77F-A86E87C3F639}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Text.RegularExpressions.PerformanceTests", "System.Text.RegularExpressions\tests\Performance\System.Text.RegularExpressions.PerformanceTests.csproj", "{800CB777-DABA-46FC-ABD7-DA09A1022FB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.PerformanceTests", "System.Threading\tests\Performance\System.Threading.PerformanceTests.csproj", "{3A7D87B7-E919-4153-AFE3-ED8C1489FAFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Channels.PerformanceTests", "System.Threading.Channels\tests\Performance\System.Threading.Channels.PerformanceTests.csproj", "{9EE2200C-A07A-480F-A8EA-A83B29A79654}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Threading.Tasks.Extensions.PerformanceTests", "System.Threading.Tasks.Extensions\tests\Performance\System.Threading.Tasks.Extensions.PerformanceTests.csproj", "{6256A1C2-C7F4-4FD4-BFDD-DC50DBB10CAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultApartmentStateMain", "System.Threading.Thread\tests\DefaultApartmentStateMain\DefaultApartmentStateMain.csproj", "{DE0E3925-68D1-4720-8BEE-436532FFF0E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MTAMain", "System.Threading.Thread\tests\MTAMain\MTAMain.csproj", "{264666ED-3565-4CD4-948B-91CF7293A010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STAMain", "System.Threading.Thread\tests\STAMain\STAMain.csproj", "{286799AA-D71F-43A4-BDF7-731F18C54759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerfRunner", "Common\tests\Performance\PerfRunner\PerfRunner.csproj", "{5BA52CE2-4001-442B-BD73-63B566483706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMonitorLoader", "System.Data.SqlClient\tests\StressTests\IMonitorLoader\IMonitorLoader.csproj", "{5BEE42EB-328D-498F-A2FD-3B63C3D17FEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.SqlClient.Stress.Tests", "System.Data.SqlClient\tests\StressTests\System.Data.SqlClient.Stress.Tests\System.Data.SqlClient.Stress.Tests.csproj", "{7B5AFB4D-6B08-4E51-B6E4-F90A52CB06D5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.StressFramework", "System.Data.SqlClient\tests\StressTests\System.Data.StressFramework\System.Data.StressFramework.csproj", "{6EC713A5-61EE-48EC-85BB-2A3037E621A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Data.StressRunner", "System.Data.SqlClient\tests\StressTests\System.Data.StressRunner\System.Data.StressRunner.csproj", "{5E39DC84-3DC9-44F0-8BD5-861761C04990}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.CharCheckingReader.Tests", "System.Private.Xml\tests\Readers\CharCheckingReader\System.Xml.RW.CharCheckingReader.Tests.csproj", "{1FF48698-9D2E-48B5-83A0-E09364AEBC7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.CustomReader.Tests", "System.Private.Xml\tests\Readers\CustomReader\System.Xml.RW.CustomReader.Tests.csproj", "{E19FB57F-2FC2-41F5-8A6F-3B22B30D2FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.FactoryReader.Tests", "System.Private.Xml\tests\Readers\FactoryReader\System.Xml.RW.FactoryReader.Tests.csproj", "{2A1D022C-FB41-4883-9756-4CC65F6E671F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.NameTable.Tests", "System.Private.Xml\tests\Readers\NameTable\System.Xml.RW.NameTable.Tests.csproj", "{39150E66-46A7-4CEC-97A8-AB917988569E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.ReaderSettings.Tests", "System.Private.Xml\tests\Readers\ReaderSettings\System.Xml.RW.ReaderSettings.Tests.csproj", "{751F2545-2A93-466C-958B-8E0B8D52ABF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.SubtreeReader.Tests", "System.Private.Xml\tests\Readers\SubtreeReader\System.Xml.RW.SubtreeReader.Tests.csproj", "{CB1060E3-037C-47E6-A161-61F29F83B473}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.WrappedReader.Tests", "System.Private.Xml\tests\Readers\WrappedReader\System.Xml.RW.WrappedReader.Tests.csproj", "{6A188B87-4420-48C0-96E3-4506FF61CA54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.RwFactory.Tests", "System.Private.Xml\tests\Writers\RwFactory\System.Xml.RW.RwFactory.Tests.csproj", "{8BBFFBAD-5274-4E7A-A9A2-ADE7C4AF08D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlWriterApi.Tests", "System.Private.Xml\tests\Writers\XmlWriterApi\System.Xml.RW.XmlWriterApi.Tests.csproj", "{EA9DB7FC-DFDD-4643-9541-8793DF815E60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlDocument.PerformanceTests", "System.Private.Xml\tests\XmlDocument\Performance\System.Xml.XmlDocument.PerformanceTests.csproj", "{531BB9D7-C583-4875-B2F5-A7D8AEEF7BFD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlNodeReader.Tests", "System.Private.Xml\tests\XmlNodeReader\System.Xml.XmlNodeReader.Tests\System.Xml.XmlNodeReader.Tests.csproj", "{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlReader.ReadContentAs.Tests", "System.Private.Xml\tests\XmlReader\ReadContentAs\System.Xml.RW.XmlReader.ReadContentAs.Tests.csproj", "{0554FEDA-3199-4FF7-A918-E1D195E70DC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlReader.Tests", "System.Private.Xml\tests\XmlReader\Tests\System.Xml.RW.XmlReader.Tests.csproj", "{F28623C8-2781-41B5-8C49-E081FCCEB2B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.RW.XmlSystemPathResolver.Tests", "System.Private.Xml\tests\XmlReader\XmlResolver\System.Xml.RW.XmlSystemPathResolver.Tests.csproj", "{CF30BB07-D2D4-42A5-94ED-69D3B804BEBE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlResolver.Tests", "System.Private.Xml\tests\XmlResolver\System.Xml.XmlResolver.Tests\System.Xml.XmlResolver.Tests.csproj", "{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSchemaSet.Tests", "System.Private.Xml\tests\XmlSchema\XmlSchemaSet\System.Xml.XmlSchemaSet.Tests.csproj", "{47A91EDA-D810-46B7-A4F4-8AF28A0D1279}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSchema.XmlSchemaValidatorApi.Tests", "System.Private.Xml\tests\XmlSchema\XmlSchemaValidatorApi\System.Xml.XmlSchema.XmlSchemaValidatorApi.Tests.csproj", "{9962DC64-8179-45ED-9D5A-8DE617998D8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSerializer.PerformanceTests", "System.Private.Xml\tests\XmlSerializer\Performance\System.Xml.XmlSerializer.PerformanceTests.csproj", "{929FBBFA-95E4-4C64-A6FE-0955FDDD9BCF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XmlSerializer.ReflectionOnly.Tests", "System.Private.Xml\tests\XmlSerializer\ReflectionOnly\System.Xml.XmlSerializer.ReflectionOnly.Tests.csproj", "{01D65526-1C07-47A1-970F-7982075D4BBB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath.XmlDocument.Tests", "System.Private.Xml\tests\XPath\XmlDocument\System.Xml.XPath.XmlDocument.Tests.csproj", "{CBD158A8-3618-4B76-B78B-865D5F74663F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath.Tests", "System.Private.Xml\tests\XPath\XPathDocument\System.Xml.XPath.Tests.csproj", "{0389CE7B-4DD9-4C02-A108-3D481ED432D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Xsl.XslCompiledTransformApi.Tests", "System.Private.Xml\tests\Xslt\XslCompiledTransformApi\System.Xml.Xsl.XslCompiledTransformApi.Tests.csproj", "{7F84F3D2-7745-42E6-9D2B-5CBB8E151008}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XsltCompiler.Tests", "System.Private.Xml\tests\Xslt\XsltCompiler\XsltCompiler.Tests.csproj", "{76F5E6E8-7106-4CF9-9E30-B8AD62649482}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.Xsl.XslTransformApi.Tests", "System.Private.Xml\tests\Xslt\XslTransformApi\System.Xml.Xsl.XslTransformApi.Tests.csproj", "{398BE3AC-3A8E-414B-8787-CD54EAF80AC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Xml.XPath.XDocument.Tests", "System.Private.Xml.Linq\tests\XPath\XDocument\System.Xml.XPath.XDocument.Tests.csproj", "{01D1626B-75DA-474B-95E9-2271153F5EBC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoteExecutorConsoleApp", "Common\tests\System\Diagnostics\RemoteExecutorConsoleApp\RemoteExecutorConsoleApp.csproj", "{0288E719-3D91-424B-BBBA-393B6DEDB6C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseLibManaged", "Common\tests\System\Xml\BaseLibManaged\BaseLibManaged.csproj", "{8BBCE7F1-EC81-43E0-8A1E-D9F93E2394E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuleCore", "Common\tests\System\Xml\ModuleCore\ModuleCore.csproj", "{873947E4-3F5E-454D-80B2-2D63D878B3F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlCoreTest", "Common\tests\System\Xml\XmlCoreTest\XmlCoreTest.csproj", "{D32F16C8-2E53-4C2F-AE26-A64C34DDD3E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlDiff", "Common\tests\System\Xml\XmlDiff\XmlDiff.csproj", "{DFC4C525-71E8-4BBD-890B-82BE624E3E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDS", "System.Data.SqlClient\tests\Tools\TDS\TDS\TDS.csproj", "{861DDB93-A9D5-41D5-BE22-5270EE18C00A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDS.EndPoint", "System.Data.SqlClient\tests\Tools\TDS\TDS.EndPoint\TDS.EndPoint.csproj", "{97F71D80-10EB-41AA-9524-97AFCF7B7827}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDS.Servers", "System.Data.SqlClient\tests\Tools\TDS\TDS.Servers\TDS.Servers.csproj", "{40E88020-11E1-4174-90CE-CE231E065B82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Address", "System.Data.SqlClient\tests\ManualTests\SQL\UdtTest\UDTs\Address\Address.csproj", "{554B943D-29AC-44AF-AFC8-F6CCB933CB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circle", "System.Data.SqlClient\tests\ManualTests\SQL\UdtTest\UDTs\Circle\Circle.csproj", "{BDA81D8F-9DFA-44C9-AD08-C522C601E693}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shapes", "System.Data.SqlClient\tests\ManualTests\SQL\UdtTest\UDTs\Shapes\Shapes.csproj", "{608858B6-2115-4B87-8BF9-F7EEAAE3C915}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utf8String", "System.Data.SqlClient\tests\ManualTests\SQL\UdtTest\UDTs\Utf8String\Utf8String.csproj", "{DFF32932-29D9-461A-A984-6D69C733313E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServer", "Common\tests\System\Net\Prerequisites\Servers\CoreFxNetCloudService\WebServer\WebServer.csproj", "{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		netcoreapp-Unix-Debug|Any CPU = netcoreapp-Unix-Debug|Any CPU
+		netcoreapp-Unix-Release|Any CPU = netcoreapp-Unix-Release|Any CPU
+		netcoreapp-Windows_NT-Debug|Any CPU = netcoreapp-Windows_NT-Debug|Any CPU
+		netcoreapp-Windows_NT-Release|Any CPU = netcoreapp-Windows_NT-Release|Any CPU
+		netstandard1.0-Debug|Any CPU = netstandard1.0-Debug|Any CPU
+		netstandard1.0-Release|Any CPU = netstandard1.0-Release|Any CPU
+		netstandard1.1-Debug|Any CPU = netstandard1.1-Debug|Any CPU
+		netstandard1.1-Release|Any CPU = netstandard1.1-Release|Any CPU
+		netstandard-Debug|Any CPU = netstandard-Debug|Any CPU
+		netstandard-Release|Any CPU = netstandard-Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+		uap10.0.16299aot-Debug|Any CPU = uap10.0.16299aot-Debug|Any CPU
+		uap10.0.16299aot-Release|Any CPU = uap10.0.16299aot-Release|Any CPU
+		uap10.0.16299-Debug|Any CPU = uap10.0.16299-Debug|Any CPU
+		uap10.0.16299-Release|Any CPU = uap10.0.16299-Release|Any CPU
+		uapaot-Windows_NT-Debug|Any CPU = uapaot-Windows_NT-Debug|Any CPU
+		uapaot-Windows_NT-Release|Any CPU = uapaot-Windows_NT-Release|Any CPU
+		uap-Windows_NT-Debug|Any CPU = uap-Windows_NT-Debug|Any CPU
+		uap-Windows_NT-Release|Any CPU = uap-Windows_NT-Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = netcoreapp-Unix-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Unix-Debug|Any CPU.Build.0 = netcoreapp-Unix-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = netcoreapp-Unix-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Unix-Release|Any CPU.Build.0 = netcoreapp-Unix-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = netcoreapp-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = netcoreapp-Windows_NT-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.0-Debug|Any CPU.ActiveCfg = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.0-Debug|Any CPU.Build.0 = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.0-Release|Any CPU.ActiveCfg = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.0-Release|Any CPU.Build.0 = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.1-Debug|Any CPU.ActiveCfg = netstandard1.1-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.1-Debug|Any CPU.Build.0 = netstandard1.1-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.1-Release|Any CPU.ActiveCfg = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard1.1-Release|Any CPU.Build.0 = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard-Debug|Any CPU.ActiveCfg = netstandard-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard-Debug|Any CPU.Build.0 = netstandard-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard-Release|Any CPU.ActiveCfg = netstandard-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.netstandard-Release|Any CPU.Build.0 = netstandard-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.Release|Any CPU.ActiveCfg = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.Release|Any CPU.Build.0 = netstandard1.1-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = uap10.0.16299aot-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299aot-Debug|Any CPU.Build.0 = uap10.0.16299aot-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = uap10.0.16299aot-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299aot-Release|Any CPU.Build.0 = uap10.0.16299aot-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299-Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299-Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299-Release|Any CPU.ActiveCfg = uap10.0.16299-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap10.0.16299-Release|Any CPU.Build.0 = uap10.0.16299-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = uapaot-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = uapaot-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = uapaot-Windows_NT-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uapaot-Windows_NT-Release|Any CPU.Build.0 = uapaot-Windows_NT-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = uap-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap-Windows_NT-Debug|Any CPU.Build.0 = uap-Windows_NT-Debug|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap-Windows_NT-Release|Any CPU.ActiveCfg = uap-Windows_NT-Release|Any CPU
+		{19D670F6-6029-43DB-9F43-CB291EB358F4}.uap-Windows_NT-Release|Any CPU.Build.0 = uap-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = netcoreapp-Unix-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Unix-Debug|Any CPU.Build.0 = netcoreapp-Unix-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = netcoreapp-Unix-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Unix-Release|Any CPU.Build.0 = netcoreapp-Unix-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = netcoreapp-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = netcoreapp-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.0-Debug|Any CPU.ActiveCfg = netstandard1.0-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.0-Debug|Any CPU.Build.0 = netstandard1.0-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.0-Release|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.0-Release|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.1-Debug|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.1-Debug|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.1-Release|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard1.1-Release|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard-Debug|Any CPU.ActiveCfg = netstandard-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard-Debug|Any CPU.Build.0 = netstandard-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard-Release|Any CPU.ActiveCfg = netstandard-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.netstandard-Release|Any CPU.Build.0 = netstandard-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.Release|Any CPU.ActiveCfg = netcoreapp-Unix-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.Release|Any CPU.Build.0 = netcoreapp-Unix-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = uap10.0.16299aot-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299aot-Debug|Any CPU.Build.0 = uap10.0.16299aot-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = uap10.0.16299aot-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299aot-Release|Any CPU.Build.0 = uap10.0.16299aot-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299-Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299-Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299-Release|Any CPU.ActiveCfg = uap10.0.16299-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap10.0.16299-Release|Any CPU.Build.0 = uap10.0.16299-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = uapaot-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = uapaot-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = uapaot-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uapaot-Windows_NT-Release|Any CPU.Build.0 = uapaot-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = uap-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap-Windows_NT-Debug|Any CPU.Build.0 = uap-Windows_NT-Debug|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap-Windows_NT-Release|Any CPU.ActiveCfg = uap-Windows_NT-Release|Any CPU
+		{8F05FFD6-6697-41CA-B733-709F5A6D3BF1}.uap-Windows_NT-Release|Any CPU.Build.0 = uap-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = netcoreapp-Unix-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Unix-Debug|Any CPU.Build.0 = netcoreapp-Unix-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = netcoreapp-Unix-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Unix-Release|Any CPU.Build.0 = netcoreapp-Unix-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = netcoreapp-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = netcoreapp-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = netcoreapp-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.0-Debug|Any CPU.ActiveCfg = netstandard1.0-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.0-Debug|Any CPU.Build.0 = netstandard1.0-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.0-Release|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.0-Release|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.1-Debug|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.1-Debug|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.1-Release|Any CPU.ActiveCfg = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard1.1-Release|Any CPU.Build.0 = netstandard1.0-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard-Debug|Any CPU.ActiveCfg = netstandard-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard-Debug|Any CPU.Build.0 = netstandard-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard-Release|Any CPU.ActiveCfg = netstandard-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.netstandard-Release|Any CPU.Build.0 = netstandard-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.Release|Any CPU.ActiveCfg = netcoreapp-Unix-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.Release|Any CPU.Build.0 = netcoreapp-Unix-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = uap10.0.16299aot-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299aot-Debug|Any CPU.Build.0 = uap10.0.16299aot-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = uap10.0.16299aot-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299aot-Release|Any CPU.Build.0 = uap10.0.16299aot-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299-Debug|Any CPU.ActiveCfg = uap10.0.16299-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299-Debug|Any CPU.Build.0 = uap10.0.16299-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299-Release|Any CPU.ActiveCfg = uap10.0.16299-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap10.0.16299-Release|Any CPU.Build.0 = uap10.0.16299-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = uapaot-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = uapaot-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = uapaot-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uapaot-Windows_NT-Release|Any CPU.Build.0 = uapaot-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = uap-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap-Windows_NT-Debug|Any CPU.Build.0 = uap-Windows_NT-Debug|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap-Windows_NT-Release|Any CPU.ActiveCfg = uap-Windows_NT-Release|Any CPU
+		{FEF9FF32-8DE5-4C52-BC4E-8725A1FAA1E9}.uap-Windows_NT-Release|Any CPU.Build.0 = uap-Windows_NT-Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Unix-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.0-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.0-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.1-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard1.1-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299aot-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap10.0.16299-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBB18588-DD89-4F41-9852-484FD4726F0F}.uap-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Unix-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.0-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.0-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.1-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard1.1-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299aot-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap10.0.16299-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0298D-E01E-411D-A19B-19EEC60B9A8A}.uap-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Unix-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.0-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.0-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.1-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard1.1-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299aot-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap10.0.16299-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1A1515-70D8-42E4-9B19-A72F739E974C}.uap-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Unix-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.0-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.0-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.1-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard1.1-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299aot-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap10.0.16299-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C6F323D-054E-4723-9DEA-1C5E1E45DF88}.uap-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Unix-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.0-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.0-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.1-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard1.1-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.netstandard-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299aot-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap10.0.16299-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F011A6F5-BA48-4F8D-A20F-79CCE01CDE0E}.uap-Windows_NT-Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Unix-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Unix-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Unix-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Unix-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Windows_NT-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netcoreapp-Windows_NT-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.0-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.0-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.0-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.0-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.1-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.1-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.1-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard1.1-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.netstandard-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299aot-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299aot-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299aot-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299aot-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap10.0.16299-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uapaot-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uapaot-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uapaot-Windows_NT-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uapaot-Windows_NT-Release|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap-Windows_NT-Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap-Windows_NT-Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap-Windows_NT-Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFF710-5F63-4E46-B0DA-0D1FE36EF4A7}.uap-Windows_NT-Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FB6B9F9-982D-4EC3-9E59-399EA26047D2}
+	EndGlobalSection
+EndGlobal
