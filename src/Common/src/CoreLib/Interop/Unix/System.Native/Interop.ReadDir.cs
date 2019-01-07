@@ -30,7 +30,7 @@ internal static partial class Interop
             internal byte* Name;
             internal int NameLength;
             internal NodeType InodeType;
-            internal const int NameBufferSize = 256; // sizeof(dirent->d_name) == NAME_MAX + 1
+            internal readonly static int NameBufferSize = GetNameMax() + 1; // sizeof(dirent->d_name) == NAME_MAX + 1
 
             internal ReadOnlySpan<char> GetName(Span<char> buffer)
             {

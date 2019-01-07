@@ -398,6 +398,12 @@ static void ConvertDirent(const struct dirent* entry, DirectoryEntry* outputEntr
 #endif
 }
 
+DLLEXPORT int32_t SystemNative_GetNameMax(void)
+{
+    // Eg., on Linux, this is 255
+    return NAME_MAX;
+}
+
 #if HAVE_READDIR_R
 // struct dirent typically contains 64-bit numbers (e.g. d_ino), so we align it at 8-byte.
 static const size_t dirent_alignment = 8;

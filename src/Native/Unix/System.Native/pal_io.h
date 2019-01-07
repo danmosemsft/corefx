@@ -382,6 +382,12 @@ DLLEXPORT intptr_t SystemNative_ShmOpen(const char* name, int32_t flags, int32_t
 DLLEXPORT int32_t SystemNative_ShmUnlink(const char* name);
 
 /**
+ * Returns the largest possible size of a path component, in bytes,
+ * excluding any necessary trailing null
+ */
+DLLEXPORT int32_t SystemNative_GetNameMax(void);
+
+/**
  * Returns the size of the dirent struct on the current architecture
  */
 DLLEXPORT int32_t SystemNative_GetReadDirRBufferSize(void);
