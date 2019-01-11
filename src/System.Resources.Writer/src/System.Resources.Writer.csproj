@@ -38,6 +38,7 @@
     <Reference Include="System.Runtime.Extensions" />
     <Reference Include="System.Runtime.Serialization.Formatters" />
     <Reference Include="System.Runtime.Serialization.Primitives" />
+    <Reference Include="System.Threading.Thread" />
     <Reference Include="System.Xml.ReaderWriter" />
   </ItemGroup>
 </Project>
