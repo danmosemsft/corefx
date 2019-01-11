@@ -73,4 +73,40 @@
   <data name="ArgumentOutOfRange_StreamLength" xml:space="preserve">
     <value>Stream length must be non-negative and less than 2^31 - 1 - origin.</value>
   </data>
+  <data name="InvalidResXBasePathOperation" xml:space="preserve">
+    <value>Property can be changed only before the enumeration.</value>
+  </data>
+  <data name="InvalidResXFile" xml:space="preserve">
+    <value>ResX file {0} cannot be parsed.</value>
+  </data>
+  <data name="InvalidResXFileReaderWriterTypes" xml:space="preserve">
+    <value>ResX input is not valid. Cannot find valid "resheader" tags for the ResX reader and writer type names.</value>
+  </data>
+  <data name="InvalidResXNoType" xml:space="preserve">
+    <value>Could not find a type for a name.  The type name was '{0}'.</value>
+  </data>
+  <data name="InvalidResXResourceNoName" xml:space="preserve">
+    <value>Cannot find a name for the resource with the value '{0}'.</value>
+  </data>
+  <data name="InvocationException" xml:space="preserve">
+    <value>Type {0} in the data at line {1}, position {2}, cannot be loaded because it threw the following exception during construction: {3}</value>
+  </data>
+  <data name="NotSerializableType" xml:space="preserve">
+    <value>Item named '{0}' of type '{1}' cannot be added to the resource file because it is not serializable.</value>
+  </data>
+  <data name="NotSupported" xml:space="preserve">
+    <value>The type {0} on line {1}, position {2} threw the following exception while being converted: {3}</value>
+  </data>
+    <data name="ResXResourceWriterSaved" xml:space="preserve">
+    <value>Resource writer has been saved.  You may not edit it.</value>
+  </data>
+  <data name="SerializationException" xml:space="preserve">
+    <value>Type {0} could not be read from the data in line {1}, position {2}.  The type's internal structure may have changed.  Either implement ISerializable on the type or provide a type converter that can provide a more reliable conversion format, such as text or an array of bytes.  The conversion exception was: {3}</value>
+  </data>
+  <data name="TypeLoadException" xml:space="preserve">
+    <value>Type {0} in the data at line {1}, position {2} cannot be located.</value>
+  </data>
+  <data name="TypeLoadExceptionShort" xml:space="preserve">
+    <value>Type {0} cannot be located.</value>
+  </data>
 </root>

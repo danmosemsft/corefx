@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <AssemblyName>System.Resources.Writer</AssemblyName>
@@ -7,6 +7,14 @@
     <Configurations>netcoreapp-Debug;netcoreapp-Release;uap-Windows_NT-Debug;uap-Windows_NT-Release</Configurations>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="System\Resources\IAliasResolver.cs" />
+    <Compile Include="System\Resources\MultitargetUtil.cs" />
+    <Compile Include="System\Resources\ResXDataNode.cs" />
+    <Compile Include="System\Resources\ResXFileRef.cs" />
+    <Compile Include="System\Resources\ResXNullRef.cs" />
+    <Compile Include="System\Resources\ResXResourceReader.cs" />
+    <Compile Include="System\Resources\ResXResourceSet.cs" />
+    <Compile Include="System\Resources\ResXResourceWriter.cs" />
     <Compile Include="System\Resources\__FastResourceComparer.cs" />
     <Compile Include="System\Resources\IResourceWriter.cs" />
     <Compile Include="System\Resources\ResourceWriter.cs" />
@@ -17,10 +25,20 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Collections" />
+    <Reference Include="System.Collections.NonGeneric" />
+    <Reference Include="System.Collections.Specialized" />
+    <Reference Include="System.ComponentModel.TypeConverter" />
+    <Reference Include="System.Drawing.Common" />
     <Reference Include="System.Diagnostics.Debug" />
     <Reference Include="System.Diagnostics.Tools" />
+    <Reference Include="System.ObjectModel" />
+    <Reference Include="System.Resources.Reader" />
     <Reference Include="System.Resources.ResourceManager" />
+    <Reference Include="System.Resources.Writer" />
     <Reference Include="System.Runtime" />
     <Reference Include="System.Runtime.Extensions" />
+    <Reference Include="System.Runtime.Serialization.Formatters" />
+    <Reference Include="System.Runtime.Serialization.Primitives" />
+    <Reference Include="System.Xml.ReaderWriter" />
   </ItemGroup>
 </Project>
